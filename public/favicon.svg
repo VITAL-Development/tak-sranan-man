@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 512 512">
+      <rect x="0" y="0" width="512" height="512" rx="0" fill="#377E3F" />
+      
+    <g transform="translate(256 256) scale(1) translate(-256 -256)">
+      <!-- speech bubble body -->
+      <rect x="146" y="166" width="220" height="160" rx="56" fill="#fdf6ec" />
+      <!-- tail, pointing down-left from the bubble's bottom edge -->
+      <path d="M 210 320 L 176 372 L 246 322 Z" fill="#fdf6ec" />
+      <!-- accent dot, evoking a spoken syllable -->
+      <circle cx="256" cy="246" r="26" fill="#ECC81D" />
+    </g>
+  
+    </svg>

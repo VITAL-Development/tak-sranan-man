@@ -1,0 +1,68 @@
+[
+  {
+    "lessonId": "lesson-1-srn-greetings",
+    "exampleSentences": [
+      {
+        "id": "srn-ex-1-1",
+        "word": "Odi! Fa waka?",
+        "translations": { "nl": "Hallo! Hoe gaat het?" },
+        "vocabRefs": ["srn-greet-odi", "srn-greet-fa-waka"]
+      },
+      {
+        "id": "srn-ex-1-2",
+        "word": "Mi bun, gran tangi.",
+        "translations": { "nl": "Het gaat goed, hartelijk dank." },
+        "vocabRefs": ["srn-greet-mi-bun", "srn-greet-grantangi"]
+      }
+    ],
+    "grammarNotes": [],
+    "exercises": {
+      "srn-l1-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Wat betekent 'Odi'?",
+        "options": ["hallo", "dank je", "tot ziens", "hoe gaat het?"],
+        "correctIndex": 0
+      },
+      "srn-l1-e4": {
+        "kind": "word-bank",
+        "promptTranslations": { "nl": "Hoe gaat het met jou?" },
+        "correctTargetTokens": ["Fa", "yu", "tan?"],
+        "distractorTokens": ["Gran", "tangi"]
+      },
+      "srn-l1-e5": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "Mi ___.",
+        "correctAnswer": "bun",
+        "options": ["bun", "tangi", "waka", "odi"],
+        "translations": { "nl": "Het gaat goed." }
+      }
+    }
+  },
+  {
+    "lessonId": "lesson-2-srn-numbers",
+    "exampleSentences": [
+      {
+        "id": "srn-ex-2-1",
+        "word": "Wan, tu, dri, fo, feifi.",
+        "translations": { "nl": "Eén, twee, drie, vier, vijf." },
+        "vocabRefs": ["srn-num-wan", "srn-num-tu", "srn-num-dri", "srn-num-fo", "srn-num-feifi"]
+      }
+    ],
+    "grammarNotes": [],
+    "exercises": {
+      "srn-l2-e1": {
+        "kind": "multiple-choice",
+        "prompt": "Wat betekent 'feifi'?",
+        "options": ["twee", "vijf", "tien", "acht"],
+        "correctIndex": 1
+      },
+      "srn-l2-e3": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "Wan, tu, ___, fo, feifi.",
+        "correctAnswer": "dri",
+        "options": ["dri", "siksi", "tin", "aiti"],
+        "translations": { "nl": "Eén, twee, drie, vier, vijf." }
+      }
+    }
+  }
+]
