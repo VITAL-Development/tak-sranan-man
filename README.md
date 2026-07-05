@@ -29,8 +29,6 @@ settings/sranantongo/
 public/
 ├── favicon.svg
 └── icons/            # PWA icon set (192/512/maskable-512)
-scripts/
-└── generate-icons.mjs   # Regenerates public/ from a hand-authored SVG design
 ```
 
 This shape exactly mirrors what `rarelang-server` expects to mount via its
@@ -61,13 +59,12 @@ Colors intentionally **reuse the same Suriname-flag-derived palette** as
 rarelang platform established this palette as its shared default theme.
 Only the icon glyph differs: a speech bubble (evoking "Tak" — speak),
 rather than Sarnami's "ā" macron glyph (which wouldn't fit Sranan Tongo's
-diacritic-free orthography). Regenerate the icon set after any design
-change:
-
-```bash
-npm install
-npm run generate-icons
-```
+diacritic-free orthography). The icon set in `public/` is committed and
+regenerated rarely, as a one-off design task — this content package
+deliberately ships no build tooling or `npm` scripts (see `CLAUDE.md`). To
+regenerate icons, do the `sharp`-based rasterization ad hoc from the
+`favicon.svg` design outside this repo, then commit the resulting `public/`
+assets.
 
 ## Deployment
 
