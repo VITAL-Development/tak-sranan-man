@@ -2,13 +2,12 @@
 
 ## What this repo is
 
-Content and branding package for Sranan Tongo, consumed by the rarelang
-platform's generic engines
-([`rarelang-pwa`](https://github.com/VITAL-Development/rarelang-pwa),
-[`rarelang-server`](https://github.com/VITAL-Development/rarelang-server)).
-No app code, no build, no `npm` tooling at all — no `package.json`,
-lockfile, or `scripts/`. Icon regeneration is a rare, manual design task
-done ad hoc outside this repo (see README's "Branding").
+Content and branding package for Sranan Tongo, consumed by a generic,
+language-agnostic learning platform's engines (a PWA frontend engine and an
+HTTP backend engine, both content-agnostic). No app code, no build, no
+`npm` tooling at all — no `package.json`, lockfile, or `scripts/`. Icon
+regeneration is a rare, manual design task done ad hoc outside this repo
+(see README's "Branding").
 
 ## Layout
 
@@ -18,9 +17,8 @@ settings/sranantongo/language-settings.json        # romanization/alphabet/audio
 public/{favicon.svg,icons/*.png}                   # PWA icon set
 ```
 
-Don't rename/restructure `content/`/`settings/` without checking
-`rarelang-server`'s `CONTENT_DIR`/`SETTINGS_DIR` mounting expectations
-first (see that repo's README).
+Don't rename/restructure `content/`/`settings/` without checking the
+backend engine's `CONTENT_DIR`/`SETTINGS_DIR` mounting expectations first.
 
 ## Versioning
 
@@ -33,8 +31,8 @@ that's a **MAJOR** (breaking) change; adding content or an optional field is
 **MINOR**; a same-shape value/spelling/ref-target fix is **PATCH**. Record
 every content/schema change under `## [Unreleased]` in `CHANGELOG.md`. The
 authoritative rules — and how a git-sync deployment pins to a tag — live in
-[`docs/versioning.md`](docs/versioning.md). This mirrors `sarnami-bol-naa`'s
-policy (sarnami-bol-naa#86).
+[`docs/versioning.md`](docs/versioning.md). This mirrors the platform's
+shared content-repository versioning policy.
 
 ## Content authoring — verification discipline
 
@@ -55,8 +53,8 @@ attested.
 ## Branding
 
 `settings/sranantongo/language-settings.json`'s `branding` field carries
-colors (RGB-triplet strings, matching `rarelang-pwa`'s
+colors (RGB-triplet strings, matching the frontend engine's
 `--color-{forest,flame,gold,cream}-*` CSS custom property naming), appName
-("Tak Sranan Man"), and icon paths. Colors intentionally match
-`sarnami-bol-naa`'s palette (shared Suriname-flag theme across the
-platform); only the icon glyph is distinct.
+("Tak Sranan Man"), and icon paths. Colors intentionally match the
+platform's shared Suriname-flag palette (reused across the platform's
+Suriname-language content); only the icon glyph is distinct.

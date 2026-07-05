@@ -5,7 +5,7 @@
   "romanization": {
     "scheme": "Plain Dutch-derived Latin orthography",
     "diacritics": [],
-    "notes": "Unlike Sarnami, Sranan Tongo does NOT use macron (ā/ī/ū) or underdot (ṭ/ḍ/ṇ) diacritics; it is written with the plain, unaccented Latin alphabet (confirmed by every loanword the Sarnami grammar attributes to Sranan Tongo, e.g. 'lesi', 'seti', 'chapu', 'kaiman', 'savanne' — see sarnami-bol-naa's docs/byakaran/00-introduction.md and docs/byakaran/09-loan-words-and-neologisms.md — none carry macrons or underdots), so its diacritics list is intentionally empty rather than mirroring Sarnami's, not a placeholder awaiting authoring."
+    "notes": "Unlike Sarnami, Sranan Tongo does NOT use macron (ā/ī/ū) or underdot (ṭ/ḍ/ṇ) diacritics; it is written with the plain, unaccented Latin alphabet (confirmed by every loanword the Sarnami grammar attributes to Sranan Tongo, e.g. 'lesi', 'seti', 'chapu', 'kaiman', 'savanne', none of which carry macrons or underdots), so its diacritics list is intentionally empty rather than mirroring Sarnami's, not a placeholder awaiting authoring."
   },
   "alphabet": {
     "vowels": ["a", "e", "i", "o", "u"],

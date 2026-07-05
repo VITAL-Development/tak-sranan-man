@@ -1,19 +1,15 @@
 # Tak Sranan Man
 
 Content and branding package for **Sranan Tongo** (Sranantongo) — the
-English/Dutch-lexified creole language of Suriname — as taught by the
-[rarelang](https://github.com/VITAL-Development/rarelang-pwa) platform's
-generic learning engine.
+English/Dutch-lexified creole language of Suriname — as taught by a generic,
+language-agnostic learning platform.
 
-This repo follows the same shape as its sibling content package,
-[`sarnami-bol-naa`](https://github.com/VITAL-Development/sarnami-bol-naa)
-(see that repo's issue #64 for the pattern this mirrors, and
-[issue #65](https://github.com/VITAL-Development/sarnami-bol-naa/issues/65)
-for this repo's own creation): a data package with no app code, consumed at
-runtime by the generic engines.
+This repo follows the same shape as the platform's other content packages:
+a data package with no app code, consumed at runtime by two generic,
+content-agnostic engines:
 
-- **[`rarelang-pwa`](https://github.com/VITAL-Development/rarelang-pwa)** — the generic frontend engine. No content or branding of its own.
-- **[`rarelang-server`](https://github.com/VITAL-Development/rarelang-server)** — the generic backend engine. Serves this repo's content/settings over HTTP once wired up as a content source (see "Deployment" below).
+- **A generic frontend engine** — a PWA that renders whatever content and branding it is served. No content or branding of its own.
+- **A generic backend engine** — serves this repo's content/settings over HTTP once wired up as a content source (see "Deployment" below).
 
 ## Layout
 
@@ -31,10 +27,9 @@ public/
 └── icons/            # PWA icon set (192/512/maskable-512)
 ```
 
-This shape exactly mirrors what `rarelang-server` expects to mount via its
+This shape exactly mirrors what the backend engine expects to mount via its
 `CONTENT_DIR`/`SETTINGS_DIR` env vars (one subdirectory per learning
-language code) — see `rarelang-server`'s README "Content ownership"
-section.
+language code).
 
 ## Content
 
@@ -55,8 +50,8 @@ independent sources agreeing.
 ## Branding
 
 Colors intentionally **reuse the same Suriname-flag-derived palette** as
-`sarnami-bol-naa` — both languages are spoken in Suriname, and the
-rarelang platform established this palette as its shared default theme.
+the platform's other Suriname-language content — the platform established
+this palette as its shared default theme.
 Only the icon glyph differs: a speech bubble (evoking "Tak" — speak),
 rather than Sarnami's "ā" macron glyph (which wouldn't fit Sranan Tongo's
 diacritic-free orthography). The icon set in `public/` is committed and
@@ -68,33 +63,29 @@ assets.
 
 ## Deployment
 
-Not yet wired into a running `rarelang-server` deployment — the compose
-setup described in `rarelang-server`'s README currently only syncs from
-`sarnami-bol-naa`. Adding this repo as a second synced content source needs
-its own git-sync sidecar + named volume in that compose file (see its
-comments on "Multiple content repos"), tracked as a follow-up analogous to
-`sarnami-bol-naa`'s issue #76.
+Not yet wired into a running backend-engine deployment — the reference
+compose setup currently syncs only the platform's other content package.
+Adding this repo as a second synced content source needs its own git-sync
+sidecar + named volume in that compose file, tracked as a follow-up.
 
 ## Versioning
 
 Releases are cut as **annotated SemVer git tags** (`vX.Y.Z`) on `main` — the
 git tag is the single source of truth (this repo ships no `package.json` or
 other checked-in version, so there is nothing to drift from the tag). A
-`rarelang-server` deployment pins to a tag
-(`GITSYNC_REF=vX.Y.Z`) rather than tracking `main`, so a breaking content or
-schema change can't reach production unreviewed. See
-[`docs/versioning.md`](docs/versioning.md) for the scheme, the precise
-breaking-vs-additive-vs-fix definitions against this repo's schema, and the
-release/upgrade process, and [`CHANGELOG.md`](CHANGELOG.md) for what changed
-per release. This mirrors `sarnami-bol-naa`'s policy so both content repos
-behave identically under `rarelang-server`'s content-repository contract
-([rarelang-server#18](https://github.com/VITAL-Development/rarelang-server/issues/18)).
+backend-engine deployment pins to a tag (`GITSYNC_REF=vX.Y.Z`) rather than
+tracking `main`, so a breaking content or schema change can't reach
+production unreviewed. See [`docs/versioning.md`](docs/versioning.md) for the
+scheme, the precise breaking-vs-additive-vs-fix definitions against this
+repo's schema, and the release/upgrade process, and
+[`CHANGELOG.md`](CHANGELOG.md) for what changed per release. This mirrors the
+platform's shared content-repository versioning policy so all content repos
+behave identically under the backend engine's content-repository contract.
 
 ## History
 
 Some of this content (the first small greetings lesson) existed earlier as
-a stub inside `rarelang-server`'s own repo, authored there as an
-architecture smoke test (see `sarnami-bol-naa`'s issue #37). It's been
-copied here, not preserved via history-rewriting tools, since it was a
-small amount of recently-authored content rather than a large body of
-history worth mechanically preserving.
+a stub inside the backend engine's own repo, authored there as an
+architecture smoke test. It's been copied here, not preserved via
+history-rewriting tools, since it was a small amount of recently-authored
+content rather than a large body of history worth mechanically preserving.
