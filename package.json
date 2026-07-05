@@ -1,7 +1,6 @@
 {
   "name": "tak-sranan-man",
   "private": true,
-  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "generate-icons": "node scripts/generate-icons.mjs"

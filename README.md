@@ -78,6 +78,20 @@ its own git-sync sidecar + named volume in that compose file (see its
 comments on "Multiple content repos"), tracked as a follow-up analogous to
 `sarnami-bol-naa`'s issue #76.
 
+## Versioning
+
+Releases are cut as **annotated SemVer git tags** (`vX.Y.Z`) on `main` — the
+git tag is the single source of truth (there is no `version` in
+`package.json`). A `rarelang-server` deployment pins to a tag
+(`GITSYNC_REF=vX.Y.Z`) rather than tracking `main`, so a breaking content or
+schema change can't reach production unreviewed. See
+[`docs/versioning.md`](docs/versioning.md) for the scheme, the precise
+breaking-vs-additive-vs-fix definitions against this repo's schema, and the
+release/upgrade process, and [`CHANGELOG.md`](CHANGELOG.md) for what changed
+per release. This mirrors `sarnami-bol-naa`'s policy so both content repos
+behave identically under `rarelang-server`'s content-repository contract
+([rarelang-server#18](https://github.com/VITAL-Development/rarelang-server/issues/18)).
+
 ## History
 
 Some of this content (the first small greetings lesson) existed earlier as
