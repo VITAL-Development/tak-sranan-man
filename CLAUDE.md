@@ -6,8 +6,9 @@ Content and branding package for Sranan Tongo, consumed by the rarelang
 platform's generic engines
 ([`rarelang-pwa`](https://github.com/VITAL-Development/rarelang-pwa),
 [`rarelang-server`](https://github.com/VITAL-Development/rarelang-server)).
-No app code, no build, no `npm run dev`/`npm test`. The only script is icon
-regeneration (see README's "Branding").
+No app code, no build, no `npm` tooling at all — no `package.json`,
+lockfile, or `scripts/`. Icon regeneration is a rare, manual design task
+done ad hoc outside this repo (see README's "Branding").
 
 ## Layout
 
@@ -15,7 +16,6 @@ regeneration (see README's "Branding").
 content/sranantongo/{vocab,units,lessons}/*.json   # authored knowledge base
 settings/sranantongo/language-settings.json        # romanization/alphabet/audio + branding
 public/{favicon.svg,icons/*.png}                   # PWA icon set
-scripts/generate-icons.mjs                         # regenerates public/ from a hand-authored SVG
 ```
 
 Don't rename/restructure `content/`/`settings/` without checking
