@@ -25,8 +25,9 @@ first (see that repo's README).
 ## Versioning
 
 Releases are **annotated SemVer git tags** (`vX.Y.Z`) on `main`; the tag is
-the single source of truth (there is no `version` field in `package.json` —
-don't reintroduce one). Before renaming/removing a consumed field, changing
+the single source of truth (this repo has no `package.json` or other
+checked-in version to keep in sync — don't add one). Before renaming/removing
+a consumed field, changing
 a field's type, breaking a `*Ref`, or moving `content/`/`settings/`, know
 that's a **MAJOR** (breaking) change; adding content or an optional field is
 **MINOR**; a same-shape value/spelling/ref-target fix is **PATCH**. Record

@@ -78,8 +78,9 @@ comments on "Multiple content repos"), tracked as a follow-up analogous to
 ## Versioning
 
 Releases are cut as **annotated SemVer git tags** (`vX.Y.Z`) on `main` — the
-git tag is the single source of truth (there is no `version` in
-`package.json`). A `rarelang-server` deployment pins to a tag
+git tag is the single source of truth (this repo ships no `package.json` or
+other checked-in version, so there is nothing to drift from the tag). A
+`rarelang-server` deployment pins to a tag
 (`GITSYNC_REF=vX.Y.Z`) rather than tracking `main`, so a breaking content or
 schema change can't reach production unreviewed. See
 [`docs/versioning.md`](docs/versioning.md) for the scheme, the precise

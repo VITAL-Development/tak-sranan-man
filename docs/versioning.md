@@ -21,16 +21,21 @@ Releases are marked with **annotated, SemVer git tags** of the form
 `vMAJOR.MINOR.PATCH` (e.g. `v1.4.0`), cut on `main`.
 
 **The git tag is the single source of truth for "what version is this?"**
+There is deliberately no `VERSION` file and no `package.json` version field:
 
-This repo does have a `package.json` (it carries the `generate-icons`
-devDependency and script), but its `version` field is **not** a source of
-truth — it has been removed. Nothing reads it: the package is
-`"private": true`, is never published to npm, and the only script
-(`generate-icons`) does not consult a version. Keeping a `version` field
-here would be a second thing to hand-sync with the tag on every release,
-and it would inevitably drift. If a future tool ever needs a version at
-build time, it should read the git tag (`git describe --tags`), not a
-checked-in field. See the "Note on `package.json`" section below.
+- This repo has **no `package.json`** at all — the npm tooling (the
+  `generate-icons` script and its `sharp` dependency) was removed in
+  [issue #2](https://github.com/VITAL-Development/tak-sranan-man/issues/2)
+  because a content-and-branding package has no build. There is nothing that
+  reads a `version` field. A `VERSION` file would just be a second thing to
+  keep in sync with the tag and would inevitably drift.
+- git-sync (the consumer's sync mechanism) already speaks refs natively — it
+  can track a tag directly (see "Pinning" below), so tags need no
+  translation to be useful to the one consumer that matters.
+
+If some future tool ever needs a version at build time, derive it from the
+git tag (`git describe --tags --always`) rather than reintroducing a
+hand-maintained field that would drift.
 
 A tag is immutable and points at an exact tree, so "pinned to `v1.4.0`" is
 unambiguous and reproducible. git-sync (the consumer's sync mechanism)
@@ -186,17 +191,3 @@ A deployment that deliberately wants continuous delivery of Sranan Tongo
 content can still track `main` — but it accepts that a breaking change here
 can reach it unreviewed. Pinning to a tag is the recommended posture for
 anything user-facing.
-
-## Note on `package.json`
-
-This repo has a `package.json` (unlike `sarnami-bol-naa`, which has none).
-It exists solely for the icon-generation tooling (`sharp` devDependency +
-the `generate-icons` script) and is `"private": true`. Its `version` field
-has been **removed** so there is exactly one source of truth for the release
-version — the git tag.
-
-If you re-add tooling that genuinely needs a version number at build time,
-derive it from the tag (`git describe --tags --always`) rather than
-reintroducing a hand-maintained `version` field that would drift from the
-tag. Do not let `npm version` write a `version` back into `package.json`;
-cut tags with `git tag -a` as described in "Release process" above.

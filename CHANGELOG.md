@@ -34,10 +34,5 @@ a dated `## [X.Y.Z]` heading.
   (`GITSYNC_REF=vX.Y.Z`) instead of tracking `main`. Also this `CHANGELOG.md`
   and README/CLAUDE pointers. (issue #1, mirrors sarnami-bol-naa#86)
 
-### Changed
-
-- Removed the `version` field from `package.json` — the git tag is now the
-  single source of truth for the release version. (issue #1)
-
 [Unreleased]: https://github.com/VITAL-Development/tak-sranan-man/compare/v0.1.0...HEAD
 [0.1.0]: https://github.com/VITAL-Development/tak-sranan-man/releases/tag/v0.1.0
