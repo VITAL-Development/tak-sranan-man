@@ -9,15 +9,21 @@ scheme and the precise definition of what counts as a **breaking** (MAJOR)
 vs additive (MINOR) vs fix (PATCH) change.
 
 This log tracks **content and schema-relevant** changes — anything a
-`rarelang-server` consumer syncing this repo would care about (new/changed
-vocab, units, lessons, or `language-settings.json` shape). Pure docs or
-tooling edits that don't affect served content need not appear.
+consumer syncing this repo would care about (new/changed vocab, units,
+lessons, or `language-settings.json` shape). Pure docs or tooling edits that
+don't affect served content need not appear.
 
 Releases are cut as git tags `vX.Y.Z`. The entries below accumulate under
 `[Unreleased]` until the next release is cut, at which point they move under
 a dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
+
+### Changed
+
+- `settings/sranantongo/language-settings.json`: reworded
+  `romanization.notes` to drop an internal cross-repository citation
+  (same-shape notes-string edit; no schema or served-field change).
 
 ## [0.1.0] - 2026-07-05
 
@@ -29,10 +35,10 @@ a dated `## [X.Y.Z]` heading.
   PWA icon set under `public/`.
 - Versioning policy (`docs/versioning.md`): SemVer via annotated git tags as
   the single source of truth, breaking/non-breaking definitions tied to this
-  repo's on-disk content/settings schema and `rarelang-server`'s HTTP
-  contract, the release process, and how a git-sync deployment pins to a tag
-  (`GITSYNC_REF=vX.Y.Z`) instead of tracking `main`. Also this `CHANGELOG.md`
-  and README/CLAUDE pointers. (issue #1, mirrors sarnami-bol-naa#86)
+  repo's on-disk content/settings schema and the backend engine's HTTP
+  content contract, the release process, and how a git-sync deployment pins
+  to a tag (`GITSYNC_REF=vX.Y.Z`) instead of tracking `main`. Also this
+  `CHANGELOG.md` and README/CLAUDE pointers.
 
-[Unreleased]: https://github.com/VITAL-Development/tak-sranan-man/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/VITAL-Development/tak-sranan-man/releases/tag/v0.1.0
+[Unreleased]: ../../compare/v0.1.0...HEAD
+[0.1.0]: ../../releases/tag/v0.1.0
