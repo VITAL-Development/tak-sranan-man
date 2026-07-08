@@ -18,6 +18,21 @@
         "srn-greet-tangi",
         "srn-greet-grantangi"
       ],
+      "generatedSpec": {
+        "vocabRefs": [
+          "srn-greet-odi",
+          "srn-greet-fa-waka",
+          "srn-greet-fa-yu-tan",
+          "srn-greet-mi-bun",
+          "srn-greet-tangi",
+          "srn-greet-grantangi"
+        ],
+        "grammarRefs": [],
+        "topics": ["greeting"],
+        "kinds": ["multiple-choice", "flashcard", "word-bank", "fill-blank", "matching"],
+        "count": 5,
+        "distractorScope": "topic"
+      },
       "exampleSentenceRefs": ["srn-ex-1-1", "srn-ex-1-2"],
       "exercises": [
         {
