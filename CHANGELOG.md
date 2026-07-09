@@ -19,6 +19,17 @@ a dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-07-09
+
+### Added
+
+- `content/sranantongo/units/unit-01-srn-greetings.json`: opt-in, id-keyed
+  `generatedSpec` on the greetings lesson (additive — the fixed `exercises`
+  array is left in place) so the seeded exercise-arrangement generator
+  (rarelang-server#37) can serve a freshly varied exercise mix on each
+  replay. Every id is a foreign key into this repo's own vocab; no content
+  text moves into the engine. (#9)
+
 ### Changed
 
 - `settings/sranantongo/language-settings.json`: reworded
