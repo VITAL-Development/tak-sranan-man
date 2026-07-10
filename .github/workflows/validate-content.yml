@@ -26,8 +26,13 @@ jobs:
       # it ships in one, switch this to that tag the same way deployments pin
       # content tags — a moving `main` ref is only acceptable here because
       # it's fetching tooling, not the content shape being validated.
+      # rarelang-server is a private repo, so this needs an authenticated
+      # clone — RARELANG_SERVER_TOKEN is a PAT scoped to read-only access on
+      # that one repo.
       - name: Fetch rarelang-server validate-content
-        run: git clone --depth 1 https://github.com/VITAL-Development/rarelang-server.git /tmp/rarelang-server
+        env:
+          RARELANG_SERVER_TOKEN: ${{ secrets.RARELANG_SERVER_TOKEN }}
+        run: git clone --depth 1 "https://x-access-token:${RARELANG_SERVER_TOKEN}@github.com/VITAL-Development/rarelang-server.git" /tmp/rarelang-server
 
       - name: Validate content contract
         run: node /tmp/rarelang-server/scripts/validate-content.mjs .
@@ -48,7 +53,9 @@ jobs:
       # reviewed (contracts.lock.json). No LLM needed to notice a contract
       # doc changed — only reviewing *what* changed is a human/agentic call.
       - name: Fetch rarelang-server contracts-manifest
-        run: git clone --depth 1 https://github.com/VITAL-Development/rarelang-server.git /tmp/rarelang-server
+        env:
+          RARELANG_SERVER_TOKEN: ${{ secrets.RARELANG_SERVER_TOKEN }}
+        run: git clone --depth 1 "https://x-access-token:${RARELANG_SERVER_TOKEN}@github.com/VITAL-Development/rarelang-server.git" /tmp/rarelang-server
 
       - name: Diff upstream contracts against contracts.lock.json
         run: |
@@ -101,8 +108,10 @@ jobs:
 
       - name: Fetch prose contract docs
         if: steps.changed.outputs.any == 'true'
+        env:
+          RARELANG_SERVER_TOKEN: ${{ secrets.RARELANG_SERVER_TOKEN }}
         run: |
-          git clone --depth 1 https://github.com/VITAL-Development/rarelang-server.git /tmp/rarelang-server
+          git clone --depth 1 "https://x-access-token:${RARELANG_SERVER_TOKEN}@github.com/VITAL-Development/rarelang-server.git" /tmp/rarelang-server
 
       # Advisory-only half of the Option C fork (rarelang-server#53, #13):
       # the two contracts here are prose/judgment calls that aren't
@@ -114,11 +123,10 @@ jobs:
       # above plus the two contract docs (no repo-wide search), single
       # attempt (no retry loop), findings below 70% confidence are not
       # reported, and the job never fails the check — it's advisory, posted
-      # as a PR comment only.
-      # Requires the CLAUDE_CODE_OAUTH_TOKEN secret, which this repo doesn't
-      # have yet (unlike sarnami-bol-naa) — this step no-ops rather than
-      # failing until that secret is added. See tak-sranan-man#13's
-      # "prerequisite" note.
+      # as a PR comment only. CLAUDE_CODE_OAUTH_TOKEN is now present in this
+      # repo's secrets (tak-sranan-man#13's prerequisite is resolved); the
+      # `secrets.CLAUDE_CODE_OAUTH_TOKEN != ''` guard is left in place as a
+      # defensive no-op rather than a hard failure if it's ever removed.
       - name: Run Claude Code advisory review
         if: steps.changed.outputs.any == 'true' && secrets.CLAUDE_CODE_OAUTH_TOKEN != ''
         uses: anthropics/claude-code-action@v1
