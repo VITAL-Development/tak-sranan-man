@@ -126,6 +126,11 @@ jobs:
       contents: read
       pull-requests: write
       id-token: write
+    # The `secrets` context isn't available in step `if:` conditionals (only
+    # in `env:`/`with:`) — computing the boolean here first and checking
+    # `env.HAS_CLAUDE_TOKEN` below is the standard workaround.
+    env:
+      HAS_CLAUDE_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -167,10 +172,10 @@ jobs:
       # reported, and the job never fails the check — it's advisory, posted
       # as a PR comment only. CLAUDE_CODE_OAUTH_TOKEN is present in this
       # repo's secrets (tak-sranan-man#13's prerequisite is resolved); the
-      # `secrets.CLAUDE_CODE_OAUTH_TOKEN != ''` guard is left in place as a
-      # defensive no-op rather than a hard failure if it's ever removed.
+      # HAS_CLAUDE_TOKEN guard is left in place as a defensive no-op rather
+      # than a hard failure if it's ever removed.
       - name: Run Claude Code advisory review
-        if: steps.changed.outputs.any == 'true' && secrets.CLAUDE_CODE_OAUTH_TOKEN != ''
+        if: steps.changed.outputs.any == 'true' && env.HAS_CLAUDE_TOKEN == 'true'
         uses: anthropics/claude-code-action@v1
         continue-on-error: true
         with:
