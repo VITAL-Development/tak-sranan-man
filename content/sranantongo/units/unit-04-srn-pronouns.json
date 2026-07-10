@@ -1,0 +1,194 @@
+{
+  "id": "unit-04-srn-pronouns",
+  "title": "Voornaamwoorden & vraagwoorden",
+  "description": "Het persoonlijke voornaamwoordsysteem (ook gebruikt als bezittelijk voornaamwoord), aanwijzende voornaamwoorden, en de belangrijkste vraagwoorden.",
+  "order": 5,
+  "lessons": [
+    {
+      "id": "lesson-1-srn-personal-pronouns",
+      "unitId": "unit-04-srn-pronouns",
+      "order": 1,
+      "title": "Persoonlijke voornaamwoorden",
+      "description": "Mi, yu, a/en, wi, unu, den — het gesloten stel persoonlijke voornaamwoorden.",
+      "newVocab": [
+        "srn-pron-mi",
+        "srn-pron-yu",
+        "srn-pron-a-en",
+        "srn-pron-wi",
+        "srn-pron-unu",
+        "srn-pron-den"
+      ],
+      "generatedSpec": {
+        "vocabRefs": [
+          "srn-pron-mi",
+          "srn-pron-yu",
+          "srn-pron-a-en",
+          "srn-pron-wi",
+          "srn-pron-unu",
+          "srn-pron-den"
+        ],
+        "grammarRefs": [],
+        "topics": ["pronoun"],
+        "kinds": ["multiple-choice", "flashcard", "matching", "fill-blank"],
+        "count": 5,
+        "distractorScope": "topic"
+      },
+      "exampleSentenceRefs": ["srn-ex-4-1"],
+      "exercises": [
+        {
+          "id": "srn-l4-e1",
+          "kind": "matching",
+          "contentRef": "srn-l4-e1"
+        },
+        {
+          "id": "srn-l4-e2",
+          "kind": "multiple-choice",
+          "contentRef": "srn-l4-e2"
+        },
+        {
+          "id": "srn-l4-e3",
+          "kind": "flashcard",
+          "vocabRef": "srn-pron-unu",
+          "direction": "target-to-native"
+        },
+        {
+          "id": "srn-l4-e4",
+          "kind": "fill-blank",
+          "contentRef": "srn-l4-e4"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "lesson-2-srn-possessive-demonstrative",
+      "unitId": "unit-04-srn-pronouns",
+      "order": 2,
+      "title": "Bezittelijk & aanwijzend",
+      "description": "Dezelfde voornaamwoorden als bezittelijk gebruikt, plus disi (deze/dit) en dati (die/dat).",
+      "newVocab": [
+        "srn-pron-disi",
+        "srn-pron-dati"
+      ],
+      "generatedSpec": {
+        "vocabRefs": [
+          "srn-pron-mi",
+          "srn-pron-yu",
+          "srn-pron-wi",
+          "srn-pron-den",
+          "srn-pron-disi",
+          "srn-pron-dati"
+        ],
+        "grammarRefs": [],
+        "topics": ["pronoun"],
+        "kinds": ["multiple-choice", "flashcard", "matching", "fill-blank"],
+        "count": 5,
+        "distractorScope": "topic"
+      },
+      "exampleSentenceRefs": ["srn-ex-4-2"],
+      "exercises": [
+        {
+          "id": "srn-l4-e5",
+          "kind": "multiple-choice",
+          "contentRef": "srn-l4-e5"
+        },
+        {
+          "id": "srn-l4-e6",
+          "kind": "matching",
+          "contentRef": "srn-l4-e6"
+        },
+        {
+          "id": "srn-l4-e7",
+          "kind": "fill-blank",
+          "contentRef": "srn-l4-e7"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "lesson-3-srn-question-words",
+      "unitId": "unit-04-srn-pronouns",
+      "order": 3,
+      "title": "Vraagwoorden",
+      "description": "San, suma, pe, sortu, oten, fa, omeni, fu san ede — de belangrijkste vraagwoorden.",
+      "newVocab": [
+        "srn-q-san",
+        "srn-q-suma",
+        "srn-q-pe",
+        "srn-q-sortu",
+        "srn-q-oten",
+        "srn-q-fa",
+        "srn-q-omeni",
+        "srn-q-fu-san-ede"
+      ],
+      "generatedSpec": {
+        "vocabRefs": [
+          "srn-q-san",
+          "srn-q-suma",
+          "srn-q-pe",
+          "srn-q-sortu",
+          "srn-q-oten",
+          "srn-q-fa",
+          "srn-q-omeni",
+          "srn-q-fu-san-ede"
+        ],
+        "grammarRefs": [],
+        "topics": ["question-word"],
+        "kinds": ["multiple-choice", "flashcard", "matching", "fill-blank"],
+        "count": 6,
+        "distractorScope": "topic"
+      },
+      "exampleSentenceRefs": ["srn-ex-4-3", "srn-ex-4-4"],
+      "exercises": [
+        {
+          "id": "srn-l4-e8",
+          "kind": "matching",
+          "contentRef": "srn-l4-e8"
+        },
+        {
+          "id": "srn-l4-e9",
+          "kind": "multiple-choice",
+          "contentRef": "srn-l4-e9"
+        },
+        {
+          "id": "srn-l4-e10",
+          "kind": "fill-blank",
+          "contentRef": "srn-l4-e10"
+        },
+        {
+          "id": "srn-l4-e11",
+          "kind": "flashcard",
+          "vocabRef": "srn-q-suma",
+          "direction": "native-to-target"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "lesson-4-srn-pronouns-review",
+      "unitId": "unit-04-srn-pronouns",
+      "order": 4,
+      "title": "Terugblik: voornaamwoorden & vraagwoorden",
+      "description": "Herhaling van persoonlijke, bezittelijke en aanwijzende voornaamwoorden en vraagwoorden.",
+      "newVocab": [],
+      "exampleSentenceRefs": [],
+      "exercises": [
+        {
+          "id": "srn-l4-e12",
+          "kind": "matching",
+          "contentRef": "srn-l4-e12"
+        },
+        {
+          "id": "srn-l4-e13",
+          "kind": "multiple-choice",
+          "contentRef": "srn-l4-e13"
+        },
+        {
+          "id": "srn-l4-e14",
+          "kind": "fill-blank",
+          "contentRef": "srn-l4-e14"
+        }
+      ],
+      "xpReward": 15
+    }
+  ]
+}

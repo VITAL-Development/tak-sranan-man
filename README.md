@@ -47,6 +47,16 @@ specific sourcing. Real Sranan Tongo speakers are welcome to correct
 anything here; nothing is presented as confirmed without at least two
 independent sources agreeing.
 
+The pronoun/question-word set in `content/sranantongo/vocab/pronouns.json`
+is sourced from and cross-checked between **Koen Kamphuijs's
+["De Sranantongo files"](http://koenkamphuijs.nl/sranantongo/)** and
+**suriname.nu's ["Sranan, de grammatica"](https://www.suriname.nu/201cult/sranan01.html)**
+(Webteam Suriname / Afdeling Suriname) — both personal/informal Dutch-authored
+Sranan Tongo references, credited here as sources consulted for this content.
+Entries where the two disagreed or where only one covered a word are tagged
+`needs-verification` (see each entry's `notes` field), per this repo's
+sourcing discipline above.
+
 ## Branding
 
 Colors intentionally **reuse the same Suriname-flag-derived palette** as

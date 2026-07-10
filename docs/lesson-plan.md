@@ -39,6 +39,12 @@ public sources (per [`../CLAUDE.md`](../CLAUDE.md)'s verification discipline):
   negation, serial verbs) that the phrasebooks only show by example.
 - **Peace Corps / SIL Suriname learner materials** where available — running
   dialogues and graded readers for the capstone.
+- **Koen Kamphuijs's ["De Sranantongo files"](http://koenkamphuijs.nl/sranantongo/)**
+  and **suriname.nu's ["Sranan, de grammatica"](https://www.suriname.nu/201cult/sranan01.html)**
+  — two independent Dutch-authored grammar sketches (articles, pronouns,
+  demonstratives, question words, TMA particles, copulas). Neither is an
+  academic source; used as a pair so entries can be cross-checked between
+  them per the discipline below. See "Attribution" at the end of this doc.
 
 No entry is presented as confirmed on a single source: two independent sources
 must agree before a vocab entry is tagged `web-verified`; otherwise it is
@@ -83,7 +89,7 @@ content change (see [`versioning.md`](versioning.md)).
 | 2 | `unit-02-srn-sounds` | Klanken & spelling | alphabet, spelling, stress | new |
 | 3 | `unit-01-srn-greetings` | Basiswoorden | greetings + numbers 1–10 | **exists** |
 | 4 | `unit-03-srn-nouns` | Zelfstandige naamwoorden & lidwoorden | `a`/`den`/`wan`, plural, `fu`-possession | new |
-| 5 | `unit-04-srn-pronouns` | Voornaamwoorden & vraagwoorden | personal/possessive/demonstrative + question words | new |
+| 5 | `unit-04-srn-pronouns` | Voornaamwoorden & vraagwoorden | personal/possessive/demonstrative + question words | **exists** |
 | 6 | `unit-05-srn-verbs` | Werkwoorden, tijd & aspect | TMA particles `e`/`ben`/`o`/`sa`, `de`/`na`, `no` | new |
 | 7 | `unit-06-srn-food` | Nyanyan & dringi | food & drink vocab | new |
 | 8 | `unit-07-srn-people` | Famiri & sma | family & people vocab | new |
@@ -197,16 +203,20 @@ concrete nouns.
   `fill-blank` (choose `a`/`den`/`wan`), `matching` (noun ↔ meaning),
   `multiple-choice`.
 
-### 5. `unit-04-srn-pronouns` — Voornaamwoorden & vraagwoorden
+### 5. `unit-04-srn-pronouns` — Voornaamwoorden & vraagwoorden *(exists)*
 The pronoun system and question words — Sranan Tongo has no case endings, so
 this is a **closed set to memorise and place**, not a paradigm to inflect.
-- ~4 lessons: personal pronouns (`mi`, `yu`, `a`/`en`, `wi`, `unu`, `den`) →
+- 4 lessons: personal pronouns (`mi`, `yu`, `a`/`en`, `wi`, `unu`, `den`) →
   possessive use of the same forms + demonstratives (`disi`/`dati`) →
-  question words (`san`, `suma`, `pe`, `oten`, `fa`, `fu san`) → review.
-- Vocab ~15–20 pronoun/question forms (`vocab/pronouns.json`). Does **not**
+  question words (`san`, `suma`, `pe`, `sortu`, `oten`, `fa`, `omeni`, `fu san
+  ede`) → review.
+- 16 pronoun/question forms (`vocab/pronouns.json`), cross-checked between
+  Koen Kamphuijs's and suriname.nu's grammar pages (see "Attribution" below);
+  `oten`, `omeni` and `fu san ede` ship `needs-verification` (single-sourced
+  or disputed between the two — see each entry's `notes`). Does **not**
   re-introduce the greeting phrases' embedded `mi`/`yu`.
 - **Exercise mix:** `matching` (form ↔ meaning), `fill-blank` (choose the right
-  pronoun/question word in a sentence), `word-bank`, `multiple-choice`.
+  pronoun/question word in a sentence), `multiple-choice`, `flashcard`.
 
 ### 6. `unit-05-srn-verbs` — Werkwoorden, tijd & aspect
 The sentence-building spine, and where Sranan Tongo differs most from Sarnami:
@@ -297,7 +307,7 @@ strength varies a lot by unit. Author well-sourced units first:
 | `unit-02-srn-sounds` | **Well-sourced** | Alphabet/spelling fixed by `language-settings.json`; no diacritics to dispute. |
 | `unit-00-srn-about` | Well-sourced (facts) | History/status well documented on Wikipedia; keep claims sourced, not embellished. |
 | `unit-03-srn-nouns` | Mixed | The `a`/`den`/`wan` + `fu` system is well attested; individual noun spellings need per-word cross-checking. |
-| `unit-04-srn-pronouns` | Mixed | Pronoun set and question words are well attested; confirm each form and its `en`/`a` variants. |
+| `unit-04-srn-pronouns` | **Well-sourced (done)** | Pronoun set and question words cross-checked between Kamphuijs's and suriname.nu's grammar pages; `oten`/`omeni`/`fu san ede` remain `needs-verification` (single-sourced or disputed between the two — see "Attribution"). |
 | `unit-05-srn-verbs` | Mixed | TMA particles/copulas well documented in creole descriptions; confirm example sentences against a second source. |
 | `unit-06-srn-food` | Mixed–thin | Phrasebooks cover common items; many foods are single-sourced — expect `needs-verification`. |
 | `unit-07-srn-people` | Thin | Family/role terms are patchily covered; verify each or defer. |
@@ -331,3 +341,13 @@ Two things to hold throughout, from the repo's rules:
   unit ships the common TMA particles and copulas only.
 - **Dialectal / sociolectal variation** beyond what the sources document;
   where they disagree, tag `needs-verification` until a second source confirms.
+
+## Attribution
+
+`unit-04-srn-pronouns` (`content/sranantongo/vocab/pronouns.json`) is sourced
+from **Koen Kamphuijs's ["De Sranantongo files"](http://koenkamphuijs.nl/sranantongo/)**
+and **suriname.nu's ["Sranan, de grammatica"](https://www.suriname.nu/201cult/sranan01.html)**
+(Webteam Suriname / Afdeling Suriname) — see `README.md`'s "Content" section
+for the credit line and each affected vocab entry's `notes` field for the
+specific citation, including the disagreements between the two sources that
+were resolved (or left `needs-verification`) during authoring.
