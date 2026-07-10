@@ -39,6 +39,13 @@ public sources (per [`../CLAUDE.md`](../CLAUDE.md)'s verification discipline):
   negation, serial verbs) that the phrasebooks only show by example.
 - **Peace Corps / SIL Suriname learner materials** where available — running
   dialogues and graded readers for the capstone.
+- **Koen Kamphuijs's ["De Sranantongo files"](http://koenkamphuijs.nl/sranantongo/)**
+  — a personal Dutch-authored reference site (spelling, grammar sketch,
+  numbers, vocabulary). Useful as source material, especially for spelling
+  (`unit-02-srn-sounds`) and numbers beyond ten, but it is one enthusiast's
+  site, not an academic source — entries drawn from it alone stay
+  `needs-verification` until cross-checked against a second source, per the
+  discipline below. See "Attribution" at the end of this doc.
 
 No entry is presented as confirmed on a single source: two independent sources
 must agree before a vocab entry is tagged `web-verified`; otherwise it is
@@ -80,7 +87,7 @@ content change (see [`versioning.md`](versioning.md)).
 | # | Unit id | Title (nl) | Grammar / theme | Status |
 |---|---------|------------|-----------------|--------|
 | 1 | `unit-00-srn-about` | Over het Sranan Tongo | orientation, no grammar | new |
-| 2 | `unit-02-srn-sounds` | Klanken & spelling | alphabet, spelling, stress | new |
+| 2 | `unit-02-srn-sounds` | Klanken & spelling | alphabet, spelling, stress | **exists** |
 | 3 | `unit-01-srn-greetings` | Basiswoorden | greetings + numbers 1–10 | **exists** |
 | 4 | `unit-03-srn-nouns` | Zelfstandige naamwoorden & lidwoorden | `a`/`den`/`wan`, plural, `fu`-possession | new |
 | 5 | `unit-04-srn-pronouns` | Voornaamwoorden & vraagwoorden | personal/possessive/demonstrative + question words | new |
@@ -164,20 +171,24 @@ history, and an at-a-glance look at its plain-Latin writing system.
 - **Exercise mix:** heavy `multiple-choice` comprehension + a few `flashcard`
   for key terms. No `word-bank`/`fill-blank` (nothing to construct yet).
 
-### 2. `unit-02-srn-sounds` — Klanken & spelling
+### 2. `unit-02-srn-sounds` — Klanken & spelling *(exists)*
 The foundation unit: the five vowels (`a e i o u`) and the consonant set from
 `language-settings.json`, plus the fact that Sranan Tongo is written in a
 **plain, unaccented Latin alphabet** — no macrons or underdots. Teaches
 learners to map spelling to sound and to read the spellings used everywhere
 else.
-- ~3 lessons: vowels → consonants (incl. how `w`/`y` and common
-  spelling patterns behave) → review. Kept lighter than Sarnami's sounds unit
-  because there are no diacritics to teach.
-- Vocab: minimal-pair / example words drawn from already-verified vocab rather
-  than a new themed set.
+- 3 lessons: vowels → consonants (`w`/`y` diphthongs, the eind-n → `ng` rule,
+  the letters `c j q v x z` that Sranan Tongo doesn't use) → review. Kept
+  lighter than Sarnami's sounds unit because there are no diacritics to teach.
+- Vocab: no new vocab file — illustrative examples (`tangi`, `tan`, `yu`,
+  `wan`/`tu`/`tin`, …) are drawn from the existing greetings/numbers vocab, per
+  the scoping above.
 - **Exercise mix:** `matching` (letter ↔ sound/description), `multiple-choice`
-  (which spelling / which sound), `flashcard` (letter recognition). Avoid
-  `word-bank`; use `fill-blank` only for "pick the correctly-spelled form".
+  (which spelling / which sound), `flashcard` (letter recognition), `fill-blank`
+  for "pick the correctly-spelled form". Sourced from Koen Kamphuijs's
+  ["Spelling van het Sranantongo"](http://koenkamphuijs.nl/sranantongo/sranaspl.html)
+  (see "Attribution" below) cross-checked against the alphabet already fixed
+  in `language-settings.json`.
 
 ### 3. `unit-01-srn-greetings` — Basiswoorden *(exists)*
 Already authored and web-verified: greetings/politeness (lesson 1) and numbers
@@ -294,7 +305,7 @@ strength varies a lot by unit. Author well-sourced units first:
 | Unit | Sourcing strength | Notes |
 |------|-------------------|-------|
 | `unit-01-srn-greetings` | **Well-sourced (done)** | Every entry already `web-verified` across ≥2 phrasebooks/dictionaries. |
-| `unit-02-srn-sounds` | **Well-sourced** | Alphabet/spelling fixed by `language-settings.json`; no diacritics to dispute. |
+| `unit-02-srn-sounds` | **Well-sourced (done)** | Alphabet fixed by `language-settings.json`; spelling/pronunciation rules sourced from Koen Kamphuijs's spelling page, cross-checked against the settings-file alphabet — no diacritics to dispute. |
 | `unit-00-srn-about` | Well-sourced (facts) | History/status well documented on Wikipedia; keep claims sourced, not embellished. |
 | `unit-03-srn-nouns` | Mixed | The `a`/`den`/`wan` + `fu` system is well attested; individual noun spellings need per-word cross-checking. |
 | `unit-04-srn-pronouns` | Mixed | Pronoun set and question words are well attested; confirm each form and its `en`/`a` variants. |
@@ -331,3 +342,11 @@ Two things to hold throughout, from the repo's rules:
   unit ships the common TMA particles and copulas only.
 - **Dialectal / sociolectal variation** beyond what the sources document;
   where they disagree, tag `needs-verification` until a second source confirms.
+
+## Attribution
+
+`unit-02-srn-sounds` and the extended numbers (`srn-num-erfu` … `srn-num-wan-milyun`
+in `content/sranantongo/vocab/numbers.json`) are sourced from Koen Kamphuijs's
+["De Sranantongo files"](http://koenkamphuijs.nl/sranantongo/) — see
+`README.md`'s "Content" section for the credit line and each affected vocab
+entry's `notes` field for the specific citation.

@@ -2,7 +2,7 @@
   "id": "unit-01-srn-greetings",
   "title": "Basiswoorden",
   "description": "Een kleine, echte Sranantongo-eenheid (issue #37) die bewijst dat de taal-splitsing end-to-end werkt: eerste Sranantongo begroetingen en beleefdheidswoorden.",
-  "order": 1,
+  "order": 3,
   "lessons": [
     {
       "id": "lesson-1-srn-greetings",
