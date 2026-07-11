@@ -178,6 +178,8 @@ jobs:
         if: steps.changed.outputs.any == 'true' && env.HAS_CLAUDE_TOKEN == 'true'
         uses: anthropics/claude-code-action@v1
         continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
@@ -208,7 +210,9 @@ jobs:
               to these two contracts), post a single short line saying so, e.g. "Advisory
               contract review: no issues found above the 70% confidence bar."
             Make clear in the comment that this is an advisory, non-blocking review.
-          claude_args: "--max-turns 6 --allowed-tools Read"
+            Post it by running `gh pr comment ${{ github.event.pull_request.number }} --body "..."`
+            — that's the only Bash command you're allowed to run.
+          claude_args: "--max-turns 6 --allowed-tools \"Read\" \"Bash(gh pr comment:*)\""
 
       # Fallback for when the step above ran (condition was true) but never
       # got as far as posting a comment — e.g. GitHub's OIDC token exchange
