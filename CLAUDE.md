@@ -15,10 +15,17 @@ regeneration is a rare, manual design task done ad hoc outside this repo
 content/sranantongo/{vocab,units,lessons}/*.json   # authored knowledge base
 settings/sranantongo/language-settings.json        # romanization/alphabet/audio + branding
 public/{favicon.svg,icons/*.png}                   # PWA icon set
+docs/lesson-plan.md                                # curriculum plan: unit sequence, scope, sourcing
+docs/versioning.md                                 # SemVer git-tag release policy
 ```
 
 Don't rename/restructure `content/`/`settings/` without checking the
 backend engine's `CONTENT_DIR`/`SETTINGS_DIR` mounting expectations first.
+
+[`docs/lesson-plan.md`](docs/lesson-plan.md) is the single source of truth
+for the unit/lesson curriculum — sequencing, per-unit scope, exercise-kind
+mix, and sourcing strength per unit. Author new units against it rather
+than improvising scope or ordering.
 
 ## Versioning
 
@@ -49,6 +56,25 @@ a larger one with unverified content.
 Sranan Tongo uses a plain, unaccented Latin alphabet — no macrons or
 underdots like Sarnami. Don't add diacritics that aren't independently
 attested.
+
+CI (`.github/workflows/validate-content.yml`) runs on every PR: a
+deterministic gate runs rarelang-server's `validate-content` CLI against
+`content/sranantongo` + `settings/sranantongo` (broken `*Ref`s or missing
+required fields fail the PR before merge), a contracts-discovery job flags
+upstream drift in rarelang-server's contract docs against
+`contracts.lock.json`, and — only on PRs touching `content/sranantongo` or
+`docs/lesson-plan.md` — an advisory, cost-bounded Claude pass reviews the
+two prose/judgment contracts (CEFR-tier correctness, A2 English-readability
+ceiling) non-blockingly. This is in addition to, not a replacement for,
+the two-independent-source verification above.
+
+A lesson may carry an optional, id-keyed `generatedSpec` (vocab/grammar
+refs, topics, exercise kinds, count, distractor scope) alongside its fixed
+`exercises` array — this is additive content consumed by the backend
+engine's seeded exercise-arrangement generator (rarelang-server#37) to
+serve a varied exercise mix per replay; it doesn't replace the fixed
+exercises and introduces no new content text (see
+`content/sranantongo/units/unit-01-srn-greetings.json` for the pattern).
 
 ## Branding
 
