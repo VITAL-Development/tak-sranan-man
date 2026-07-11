@@ -21,6 +21,14 @@ a dated `## [X.Y.Z]` heading.
 
 ### Added
 
+- `content/sranantongo/units/unit-01-srn-greetings.json`: `cefrLevel: "A1"`
+  unit-level field, per `lesson-plan-authoring-contract.md` §3, matching the
+  A1 classification already assigned to this unit in `docs/lesson-plan.md`'s
+  unit-sequence table. Optional/additive. `docs/versioning.md`'s consumed
+  field list updated to include `cefrLevel`. (#23)
+- `settings/sranantongo/language-settings.json`: `defaultUiLanguage: "nl"`,
+  reflecting that this repo's content is authored entirely in Dutch.
+  Optional/additive, bundled with the `cefrLevel` change above. (#23)
 - `content/sranantongo/units/unit-02-srn-sounds.json` and
   `content/sranantongo/lessons/unit-02-srn-sounds.json`: new `Klanken &
   spelling` unit (vowels, consonants/diphthongs, review), sourced from Koen
