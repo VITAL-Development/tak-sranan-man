@@ -1,0 +1,178 @@
+[
+  {
+    "lessonId": "lesson-1-srn-personal-pronouns",
+    "exampleSentences": [
+      {
+        "id": "srn-ex-4-1",
+        "word": "Mi e go, yu e go, unu e go.",
+        "translations": { "nl": "Ik ga, jij gaat, jullie gaan." },
+        "vocabRefs": ["srn-pron-mi", "srn-pron-yu", "srn-pron-unu"]
+      }
+    ],
+    "grammarNotes": [
+      {
+        "id": "srn-gr-personal-pronouns",
+        "title": "Persoonlijke voornaamwoorden",
+        "body": "Sranantongo heeft geen naamvallen: mi (ik), yu (jij), a/en (hij/zij/het), wi (wij), unu (jullie), den (zij) blijven hetzelfde, ongeacht de zinspositie — behalve het derde-persoon-enkelvoud, dat als onderwerp 'a' is en als lijdend voorwerp of na een voorzetsel 'en' wordt (bv. 'A naki en' — 'hij sloeg hem')."
+      }
+    ],
+    "exercises": {
+      "srn-l4-e1": {
+        "kind": "matching",
+        "prompt": "Koppel elk voornaamwoord aan de juiste betekenis.",
+        "pairs": [
+          { "left": "mi", "right": "ik" },
+          { "left": "yu", "right": "jij" },
+          { "left": "wi", "right": "wij" },
+          { "left": "unu", "right": "jullie" },
+          { "left": "den", "right": "zij" }
+        ]
+      },
+      "srn-l4-e2": {
+        "kind": "multiple-choice",
+        "prompt": "Wat betekent 'unu'?",
+        "options": ["jullie", "wij", "zij", "jij"],
+        "correctIndex": 0
+      },
+      "srn-l4-e4": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "___ e go na foto.",
+        "correctAnswer": "Wi",
+        "options": ["Wi", "En", "Den", "Unu"],
+        "translations": { "nl": "Wij gaan naar de stad." }
+      }
+    }
+  },
+  {
+    "lessonId": "lesson-2-srn-possessive-demonstrative",
+    "exampleSentences": [
+      {
+        "id": "srn-ex-4-2",
+        "word": "A lampu disi na mi lampu.",
+        "translations": { "nl": "Deze lamp is mijn lamp." },
+        "vocabRefs": ["srn-pron-disi", "srn-pron-mi"]
+      }
+    ],
+    "grammarNotes": [
+      {
+        "id": "srn-gr-possessive-demonstrative",
+        "title": "Bezittelijk gebruik en aanwijzende voornaamwoorden",
+        "body": "Het bezittelijk voornaamwoord is identiek aan het persoonlijk voornaamwoord: 'mi kondre' betekent 'mijn land'. Disi (deze/dit) en dati (die/dat) worden altijd ná het zelfstandig naamwoord geplaatst: 'a lampu disi' (deze lamp), 'a sani dati' (dat ding). Dati wijst naar iets verder weg dan disi."
+      }
+    ],
+    "exercises": {
+      "srn-l4-e5": {
+        "kind": "multiple-choice",
+        "prompt": "Waar plaats je 'disi' of 'dati' in een zin?",
+        "options": [
+          "altijd na het zelfstandig naamwoord",
+          "altijd voor het zelfstandig naamwoord",
+          "aan het begin van de zin",
+          "het maakt niet uit"
+        ],
+        "correctIndex": 0
+      },
+      "srn-l4-e6": {
+        "kind": "matching",
+        "prompt": "Koppel elk woord aan de juiste betekenis.",
+        "pairs": [
+          { "left": "disi", "right": "deze / dit" },
+          { "left": "dati", "right": "die / dat (verder weg)" },
+          { "left": "mi kondre", "right": "mijn land" }
+        ]
+      },
+      "srn-l4-e7": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "A sani ___ na fu mi.",
+        "correctAnswer": "dati",
+        "options": ["dati", "disi", "den", "wan"],
+        "translations": { "nl": "Dat ding is van mij." }
+      }
+    }
+  },
+  {
+    "lessonId": "lesson-3-srn-question-words",
+    "exampleSentences": [
+      {
+        "id": "srn-ex-4-3",
+        "word": "San yu wani?",
+        "translations": { "nl": "Wat wil jij?" },
+        "vocabRefs": ["srn-q-san", "srn-pron-yu"]
+      },
+      {
+        "id": "srn-ex-4-4",
+        "word": "Pe yu e libi?",
+        "translations": { "nl": "Waar woon jij?" },
+        "vocabRefs": ["srn-q-pe", "srn-pron-yu"]
+      }
+    ],
+    "grammarNotes": [
+      {
+        "id": "srn-gr-question-words",
+        "title": "Vraagwoorden",
+        "body": "De belangrijkste vraagwoorden: San? (wat?), Suma? (wie?), Pe? (waar?), Sortu? (welke?), Oten? (wanneer?), Fa? (hoe?, gebruikt bij werkwoorden — bv. 'Fa yu tan?'), Omeni? (hoeveel?), Fu san ede? (waarom?)."
+      }
+    ],
+    "exercises": {
+      "srn-l4-e8": {
+        "kind": "matching",
+        "prompt": "Koppel elk vraagwoord aan de juiste betekenis.",
+        "pairs": [
+          { "left": "San?", "right": "Wat?" },
+          { "left": "Suma?", "right": "Wie?" },
+          { "left": "Pe?", "right": "Waar?" },
+          { "left": "Sortu?", "right": "Welke?" },
+          { "left": "Omeni?", "right": "Hoeveel?" }
+        ]
+      },
+      "srn-l4-e9": {
+        "kind": "multiple-choice",
+        "prompt": "Welk vraagwoord gebruik je om te vragen 'wanneer'?",
+        "options": ["Oten?", "Fa?", "Sortu?", "Suma?"],
+        "correctIndex": 0
+      },
+      "srn-l4-e10": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "___ yu wani?",
+        "correctAnswer": "San",
+        "options": ["San", "Suma", "Pe", "Oten"],
+        "translations": { "nl": "Wat wil jij?" }
+      }
+    }
+  },
+  {
+    "lessonId": "lesson-4-srn-pronouns-review",
+    "exampleSentences": [],
+    "grammarNotes": [],
+    "exercises": {
+      "srn-l4-e12": {
+        "kind": "matching",
+        "prompt": "Koppel elk woord aan de juiste betekenis.",
+        "pairs": [
+          { "left": "unu", "right": "jullie" },
+          { "left": "den", "right": "zij" },
+          { "left": "disi", "right": "deze / dit" },
+          { "left": "Suma?", "right": "Wie?" }
+        ]
+      },
+      "srn-l4-e13": {
+        "kind": "multiple-choice",
+        "prompt": "Wat betekent 'A naki en'?",
+        "options": [
+          "Hij sloeg hem.",
+          "Hij slaat mij.",
+          "Zij sloegen ons.",
+          "Wij slaan hen."
+        ],
+        "correctIndex": 0
+      },
+      "srn-l4-e14": {
+        "kind": "fill-blank",
+        "sentenceTemplate": "___ e libi?",
+        "correctAnswer": "Pe",
+        "options": ["Pe", "San", "Suma", "Fa"],
+        "translations": { "nl": "Waar woon je?" }
+      }
+    }
+  }
+]

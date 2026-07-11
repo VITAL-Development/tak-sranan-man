@@ -1,0 +1,114 @@
+[
+  {
+    "id": "srn-pron-mi",
+    "word": "mi",
+    "translations": { "nl": "ik / mijn" },
+    "tags": ["pronoun", "web-verified"],
+    "notes": "First person singular pronoun, doubling as the possessive 'my' (Sranan Tongo pronouns are not case-marked). Confirmed identically in Koen Kamphuijs's grammar page (http://koenkamphuijs.nl/sranantongo/sranagra.html, 'Persoonlijke voornaamwoorden' + 'Het bezittelijk voornaamwoord is hetzelfde als het persoonlijk voornaamwoord') and suriname.nu's grammar page (https://www.suriname.nu/201cult/sranan01.html, listing 'me'/'mi' for both 'ik' and 'mijn')."
+  },
+  {
+    "id": "srn-pron-yu",
+    "word": "yu",
+    "translations": { "nl": "jij / jouw" },
+    "tags": ["pronoun", "web-verified"],
+    "notes": "Second person singular pronoun and possessive 'your'. Confirmed identically in Kamphuijs's and suriname.nu's grammar pages. Already attested in this repo via the greeting phrases 'Fa waka?'/'Fa yu tan?' (see vocab/greetings.json), which this entry now generalises as its own vocab item."
+  },
+  {
+    "id": "srn-pron-a-en",
+    "word": "a / en",
+    "translations": { "nl": "hij, zij, het / hem, haar" },
+    "tags": ["pronoun", "web-verified"],
+    "notes": "Third person singular: 'a' is the subject form, 'en' the object form (used after a verb or preposition), e.g. 'A naki en' ('hij sloeg hem'). Confirmed in both Kamphuijs's grammar page (explicit subject/object rule with example) and suriname.nu's grammar page (which lists 'en' for 'hij, zij, het' without the subject/object distinction — Kamphuijs's fuller account is preferred here, corroborated rather than contradicted by suriname.nu)."
+  },
+  {
+    "id": "srn-pron-wi",
+    "word": "wi",
+    "translations": { "nl": "wij / onze" },
+    "tags": ["pronoun", "web-verified"],
+    "notes": "First person plural pronoun and possessive 'our'. Confirmed as 'wi' in both Kamphuijs's and suriname.nu's grammar pages (suriname.nu also gives the alternate spelling 'we')."
+  },
+  {
+    "id": "srn-pron-unu",
+    "word": "unu",
+    "translations": { "nl": "jullie" },
+    "tags": ["pronoun", "web-verified"],
+    "notes": "Second person plural pronoun. suriname.nu's grammar page gives 'unu' cleanly for 'jullie'. Kamphuijs's grammar page's pronoun table lists 'yu' (not 'unu') for 'jullie', which looks like a copy-paste slip from the 'jij' row directly above it — everywhere else in this repo's sourcing (Wikipedia's Sranan Tongo grammar sketch, creole-linguistics descriptions) the second-person-plural form is 'unu', matching suriname.nu, so 'yu' for 'jullie' is treated as an error on Kamphuijs's page rather than a genuine variant."
+  },
+  {
+    "id": "srn-pron-den",
+    "word": "den",
+    "translations": { "nl": "zij / hun (meervoud)" },
+    "tags": ["pronoun", "web-verified"],
+    "notes": "Third person plural pronoun and possessive 'their'. Confirmed identically in Kamphuijs's and suriname.nu's grammar pages. Note 'den' is also the plural definite article ('den bromki' — 'de bloemen', per Kamphuijs's article table) — same form, different grammatical function; the article sense is not yet authored as its own vocab entry (deferred to unit-03-srn-nouns)."
+  },
+  {
+    "id": "srn-pron-disi",
+    "word": "disi",
+    "translations": { "nl": "deze / dit" },
+    "tags": ["pronoun", "web-verified"],
+    "notes": "Demonstrative 'this', placed after the noun it modifies (e.g. 'a lampu disi' — 'this lamp'). Confirmed identically in Kamphuijs's and suriname.nu's grammar pages."
+  },
+  {
+    "id": "srn-pron-dati",
+    "word": "dati",
+    "translations": { "nl": "die / dat" },
+    "tags": ["pronoun", "web-verified"],
+    "notes": "Demonstrative 'that', referring to something farther away than 'disi', placed after the noun it modifies (e.g. 'a sani dati' — 'that thing'). Confirmed identically in Kamphuijs's and suriname.nu's grammar pages."
+  },
+  {
+    "id": "srn-q-san",
+    "word": "San?",
+    "translations": { "nl": "Wat?" },
+    "tags": ["question-word", "web-verified"],
+    "notes": "Question word 'what'. Confirmed identically in Kamphuijs's and suriname.nu's grammar pages."
+  },
+  {
+    "id": "srn-q-suma",
+    "word": "Suma?",
+    "translations": { "nl": "Wie?" },
+    "tags": ["question-word", "web-verified"],
+    "notes": "Question word 'who'. Confirmed identically in Kamphuijs's and suriname.nu's grammar pages."
+  },
+  {
+    "id": "srn-q-pe",
+    "word": "Pe?",
+    "translations": { "nl": "Waar?" },
+    "tags": ["question-word", "web-verified"],
+    "notes": "Question word 'where'. Confirmed identically in Kamphuijs's and suriname.nu's grammar pages. Kamphuijs's page also lists the alternate form 'Ope?', not corroborated by suriname.nu — 'Pe' is used here as the cross-confirmed form."
+  },
+  {
+    "id": "srn-q-sortu",
+    "word": "Sortu?",
+    "translations": { "nl": "Welke?" },
+    "tags": ["question-word", "web-verified"],
+    "notes": "Question word 'which'. Confirmed identically in Kamphuijs's and suriname.nu's grammar pages."
+  },
+  {
+    "id": "srn-q-oten",
+    "word": "Oten?",
+    "translations": { "nl": "Wanneer?" },
+    "tags": ["question-word", "needs-verification"],
+    "notes": "Question word 'when'. Source: Koen Kamphuijs's grammar page (http://koenkamphuijs.nl/sranantongo/sranagra.html) — single-sourced (not present on suriname.nu's grammar page), not yet cross-checked against a second independent source."
+  },
+  {
+    "id": "srn-q-fa",
+    "word": "Fa?",
+    "translations": { "nl": "Hoe?" },
+    "tags": ["question-word", "web-verified"],
+    "notes": "Question word 'how', used with verbs (e.g. 'Fa yu tan?' — already in this repo's greetings vocab). Confirmed identically in Kamphuijs's and suriname.nu's grammar pages."
+  },
+  {
+    "id": "srn-q-omeni",
+    "word": "Omeni?",
+    "translations": { "nl": "Hoeveel?" },
+    "tags": ["question-word", "needs-verification"],
+    "notes": "Question word 'how much/many'. Source: Koen Kamphuijs's grammar page (http://koenkamphuijs.nl/sranantongo/sranagra.html) — single-sourced (not present on suriname.nu's grammar page), not yet cross-checked against a second independent source."
+  },
+  {
+    "id": "srn-q-fu-san-ede",
+    "word": "Fu san ede?",
+    "translations": { "nl": "Waarom?" },
+    "tags": ["question-word", "needs-verification"],
+    "notes": "Question word 'why'. Kamphuijs's grammar page gives 'Fu san ede' (with the pronunciation note 'fsayde'); suriname.nu's grammar page gives 'Fu sa e de' for the same meaning. These are likely the same phrase transcribed differently rather than genuine variants, but that hasn't been confirmed against a third source, so this ships as `needs-verification` with Kamphuijs's more detailed (pronunciation-annotated) spelling preferred over suriname.nu's."
+  }
+]

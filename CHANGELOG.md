@@ -32,6 +32,14 @@ a dated `## [X.Y.Z]` heading.
   through `wan milyun` 1,000,000), tagged `needs-verification`
   (single-sourced from Koen Kamphuijs's site pending a second independent
   source). (#15)
+- `content/sranantongo/vocab/pronouns.json`,
+  `content/sranantongo/units/unit-04-srn-pronouns.json`,
+  `content/sranantongo/lessons/unit-04-srn-pronouns.json`: new `Voornaamwoorden
+  & vraagwoorden` unit (personal/possessive pronouns, demonstratives, question
+  words, review), cross-sourced between Koen Kamphuijs's and suriname.nu's
+  Sranan Tongo grammar pages. `srn-q-oten`, `srn-q-omeni` and
+  `srn-q-fu-san-ede` ship `needs-verification` (single-sourced or disputed
+  between the two sources). (#19)
 
 ### Changed
 
