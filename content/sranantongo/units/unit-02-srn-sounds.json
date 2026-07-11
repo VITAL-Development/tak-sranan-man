@@ -1,0 +1,101 @@
+{
+  "id": "unit-02-srn-sounds",
+  "title": "Klanken & spelling",
+  "description": "De vijf klinkers, de tweeklanken en de belangrijkste medeklinker-regels van het Sranantongo — hoe je de vaste, accentloze spelling leest en uitspreekt.",
+  "order": 2,
+  "lessons": [
+    {
+      "id": "lesson-1-srn-vowels",
+      "unitId": "unit-02-srn-sounds",
+      "order": 1,
+      "title": "Klinkers",
+      "description": "De vijf klinkers a, e, i, o, u en hun klank.",
+      "newVocab": [],
+      "exampleSentenceRefs": [],
+      "exercises": [
+        {
+          "id": "srn-l1s-e1",
+          "kind": "matching",
+          "contentRef": "srn-l1s-e1"
+        },
+        {
+          "id": "srn-l1s-e2",
+          "kind": "multiple-choice",
+          "contentRef": "srn-l1s-e2"
+        },
+        {
+          "id": "srn-l1s-e3",
+          "kind": "multiple-choice",
+          "contentRef": "srn-l1s-e3"
+        },
+        {
+          "id": "srn-l1s-e4",
+          "kind": "flashcard",
+          "vocabRef": "srn-greet-tangi",
+          "direction": "target-to-native"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "lesson-2-srn-consonants",
+      "unitId": "unit-02-srn-sounds",
+      "order": 2,
+      "title": "Medeklinkers & tweeklanken",
+      "description": "De y- en w-tweeklanken, de eind-n als ng-klank, en de letters die het Sranantongo niet gebruikt.",
+      "newVocab": [],
+      "exampleSentenceRefs": [],
+      "exercises": [
+        {
+          "id": "srn-l2s-e1",
+          "kind": "multiple-choice",
+          "contentRef": "srn-l2s-e1"
+        },
+        {
+          "id": "srn-l2s-e2",
+          "kind": "matching",
+          "contentRef": "srn-l2s-e2"
+        },
+        {
+          "id": "srn-l2s-e3",
+          "kind": "fill-blank",
+          "contentRef": "srn-l2s-e3"
+        }
+      ],
+      "xpReward": 10
+    },
+    {
+      "id": "lesson-3-srn-sounds-review",
+      "unitId": "unit-02-srn-sounds",
+      "order": 3,
+      "title": "Terugblik: klanken & spelling",
+      "description": "Herhaling van de klinkers, tweeklanken en medeklinker-regels.",
+      "newVocab": [],
+      "exampleSentenceRefs": [],
+      "exercises": [
+        {
+          "id": "srn-l3s-e1",
+          "kind": "matching",
+          "contentRef": "srn-l3s-e1"
+        },
+        {
+          "id": "srn-l3s-e2",
+          "kind": "multiple-choice",
+          "contentRef": "srn-l3s-e2"
+        },
+        {
+          "id": "srn-l3s-e3",
+          "kind": "fill-blank",
+          "contentRef": "srn-l3s-e3"
+        },
+        {
+          "id": "srn-l3s-e4",
+          "kind": "flashcard",
+          "vocabRef": "srn-num-tin",
+          "direction": "native-to-target"
+        }
+      ],
+      "xpReward": 15
+    }
+  ]
+}

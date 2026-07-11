@@ -21,6 +21,17 @@ a dated `## [X.Y.Z]` heading.
 
 ### Added
 
+- `content/sranantongo/units/unit-02-srn-sounds.json` and
+  `content/sranantongo/lessons/unit-02-srn-sounds.json`: new `Klanken &
+  spelling` unit (vowels, consonants/diphthongs, review), sourced from Koen
+  Kamphuijs's Sranan Tongo spelling reference and cross-checked against the
+  alphabet already fixed in `settings/sranantongo/language-settings.json`.
+  Illustrative examples reuse existing greetings/numbers vocab rather than
+  introducing a new vocab file. (#15)
+- `content/sranantongo/vocab/numbers.json`: numbers beyond ten (`erfu` 11
+  through `wan milyun` 1,000,000), tagged `needs-verification`
+  (single-sourced from Koen Kamphuijs's site pending a second independent
+  source). (#15)
 - `content/sranantongo/vocab/pronouns.json`,
   `content/sranantongo/units/unit-04-srn-pronouns.json`,
   `content/sranantongo/lessons/unit-04-srn-pronouns.json`: new `Voornaamwoorden
@@ -29,6 +40,13 @@ a dated `## [X.Y.Z]` heading.
   Sranan Tongo grammar pages. `srn-q-oten`, `srn-q-omeni` and
   `srn-q-fu-san-ede` ship `needs-verification` (single-sourced or disputed
   between the two sources). (#19)
+
+### Changed
+
+- `content/sranantongo/units/unit-01-srn-greetings.json`: `order` reassigned
+  from `1` to `3` to fit the sequence in `docs/lesson-plan.md` now that
+  `unit-02-srn-sounds` (`order: 2`) exists; ids are unchanged, so this is
+  additive per `docs/versioning.md`. (#15)
 
 ## [0.2.0] - 2026-07-09
 
