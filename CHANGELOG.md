@@ -21,6 +21,11 @@ a dated `## [X.Y.Z]` heading.
 
 ### Added
 
+- `content/sranantongo/units/unit-01-srn-greetings.json`: opt-in, id-keyed
+  `generatedSpec` on `lesson-2-srn-numbers` (its 10 `srn-num-*` vocab ids,
+  `number` topic), completing the `generatedSpec` pilot for both lessons of
+  `unit-01` (the greetings lesson already got one in v0.2.0/#9). Additive —
+  the fixed `exercises` array is left in place. (#9)
 - `content/sranantongo/units/unit-02-srn-sounds.json` and
   `content/sranantongo/lessons/unit-02-srn-sounds.json`: new `Klanken &
   spelling` unit (vowels, consonants/diphthongs, review), sourced from Koen

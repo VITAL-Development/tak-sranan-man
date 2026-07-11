@@ -84,6 +84,25 @@
         "srn-num-neigi",
         "srn-num-tin"
       ],
+      "generatedSpec": {
+        "vocabRefs": [
+          "srn-num-wan",
+          "srn-num-tu",
+          "srn-num-dri",
+          "srn-num-fo",
+          "srn-num-feifi",
+          "srn-num-siksi",
+          "srn-num-seibi",
+          "srn-num-aiti",
+          "srn-num-neigi",
+          "srn-num-tin"
+        ],
+        "grammarRefs": [],
+        "topics": ["number"],
+        "kinds": ["multiple-choice", "flashcard", "word-bank", "fill-blank", "matching"],
+        "count": 5,
+        "distractorScope": "topic"
+      },
       "exampleSentenceRefs": ["srn-ex-2-1"],
       "exercises": [
         {
