@@ -208,7 +208,7 @@ jobs:
               to these two contracts), post a single short line saying so, e.g. "Advisory
               contract review: no issues found above the 70% confidence bar."
             Make clear in the comment that this is an advisory, non-blocking review.
-          claude_args: "--max-turns 6"
+          claude_args: "--max-turns 6 --allowed-tools Read"
 
       # Fallback for when the step above ran (condition was true) but never
       # got as far as posting a comment — e.g. GitHub's OIDC token exchange
