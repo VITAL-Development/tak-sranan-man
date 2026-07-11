@@ -1,6 +1,7 @@
 {
   "code": "sranantongo",
   "displayName": "Sranan Tongo",
+  "defaultUiLanguage": "nl",
   "scriptDirection": "ltr",
   "romanization": {
     "scheme": "Plain Dutch-derived Latin orthography",
