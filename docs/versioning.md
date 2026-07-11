@@ -72,8 +72,8 @@ referential integrity the frontend relies on. Concretely:
 
 - **Renaming or removing a consumed field.** e.g. `id`, `word`,
   `translations`, `tags` on a vocab item
-  (`content/sranantongo/vocab/*.json`); `id`, `title`, `order`, `lessons`
-  on a unit, and `id`, `unitId`, `order`, `newVocab`,
+  (`content/sranantongo/vocab/*.json`); `id`, `title`, `cefrLevel`, `order`,
+  `lessons` on a unit, and `id`, `unitId`, `order`, `newVocab`,
   `exampleSentenceRefs`, `exercises`, `xpReward`, and per-exercise
   `kind`/`contentRef`/`promptVocabRef`/`vocabRef`/`direction` on the
   lessons nested inside it (`content/sranantongo/units/*.json`); `lessonId`,
