@@ -47,6 +47,14 @@ specific sourcing. Real Sranan Tongo speakers are welcome to correct
 anything here; nothing is presented as confirmed without at least two
 independent sources agreeing.
 
+The `unit-02-srn-sounds` spelling/pronunciation unit and the numbers beyond
+ten in `content/sranantongo/vocab/numbers.json` (`srn-num-erfu` and up) are
+sourced from **Koen Kamphuijs's ["De Sranantongo files"](http://koenkamphuijs.nl/sranantongo/)**,
+a personal Dutch-authored Sranan Tongo reference site — credited here as one
+of the sources consulted for this content. Entries drawn from it alone are
+tagged `needs-verification` until independently cross-checked (see each
+entry's `notes` field), per this repo's sourcing discipline above.
+
 ## Branding
 
 Colors intentionally **reuse the same Suriname-flag-derived palette** as
