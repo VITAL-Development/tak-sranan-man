@@ -186,8 +186,8 @@ jobs:
 
             Read only:
             - The changed files from this PR: ${{ steps.changed.outputs.files }}
-            - rarelang-server-tooling/docs/lesson-plan-authoring-contract.md (CEFR tier rules, cefrLevel field)
-            - rarelang-server-tooling/docs/source-language-authoring-contract.md (A2 ceiling on English authoring text)
+            - rarelang-server-tooling/docs/contracts/lesson-plan-authoring-contract.md (CEFR tier rules, cefrLevel field)
+            - rarelang-server-tooling/docs/contracts/source-language-authoring-contract.md (A2 ceiling on English authoring text)
 
             Evaluate the changed files against those two contracts only:
             1. If a unit sets `cefrLevel`, does its actual vocab/grammar difficulty plausibly

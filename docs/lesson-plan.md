@@ -11,7 +11,7 @@ directory layout) and the verification discipline see
 vs additive changes) see [`versioning.md`](versioning.md). The curriculum is
 organized into three CEFR tiers — **Beginner (A1–A2)**, **Intermediate
 (B1–B2)**, **Advanced (C1–C2)** — per the shared, cross-language
-[lesson-plan authoring contract](https://github.com/VITAL-Development/rarelang-server/blob/main/docs/lesson-plan-authoring-contract.md);
+[lesson-plan authoring contract](https://github.com/VITAL-Development/rarelang-server/blob/main/docs/contracts/lesson-plan-authoring-contract.md);
 that contract defines what each tier means, the required document shape, and
 the `cefrLevel` unit field. This document covers only what's
 Sranan-Tongo-specific.
