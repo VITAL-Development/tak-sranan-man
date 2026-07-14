@@ -19,6 +19,8 @@ a dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-07-14
+
 ### Added
 
 - `content/sranantongo/units/unit-01-srn-greetings.json`: `cefrLevel: "A1"`
@@ -88,5 +90,7 @@ a dated `## [X.Y.Z]` heading.
   to a tag (`GITSYNC_REF=vX.Y.Z`) instead of tracking `main`. Also this
   `CHANGELOG.md` and README/CLAUDE pointers.
 
-[Unreleased]: ../../compare/v0.1.0...HEAD
+[Unreleased]: ../../compare/v0.3.0...HEAD
+[0.3.0]: ../../compare/v0.2.0...v0.3.0
+[0.2.0]: ../../compare/v0.1.0...v0.2.0
 [0.1.0]: ../../releases/tag/v0.1.0
