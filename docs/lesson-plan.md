@@ -112,6 +112,35 @@ renumber all unit ids to a clean `unit-01`…`unit-10`; if so, do it as one
 dedicated change and update every `unitId` back-reference — the id-preserving
 scheme above avoids that churn, exactly as the sibling repo does.)
 
+### Ordering checklist (order vs. CEFR tier)
+
+The tier table above and the per-tier tables below are the source of truth
+for each unit's `order` and `cefrLevel` — **when authoring a new unit, set
+both from this doc's tables; don't just append the new unit at the end of
+`content/sranantongo/units/*.json`.** Only `unit-01-srn-greetings` currently
+exists and it has no `cefrLevel` field yet, so there is nothing to check
+mechanically today — but as the other 9 planned units in this doc get
+authored, it's easy for `order` and `cefrLevel` to drift apart (e.g. a unit
+authored out of table order, or a real-content unit needing a different
+`order` than planned).
+
+Before cutting a release:
+
+- Sort `content/sranantongo/units/*.json` by `order` and confirm `cefrLevel`
+  (once populated on more than one unit) is **non-decreasing** across
+  A1 → A2 → B1 → B2 → C1, matching this doc's tier tables — per the shared
+  [lesson-plan authoring
+  contract](https://github.com/VITAL-Development/rarelang-server/blob/main/docs/contracts/lesson-plan-authoring-contract.md)'s
+  cross-tier sequencing rule: a learner must be able to complete an entire
+  tier using only that tier's — and lower tiers' — material.
+- If the plan changes and reorders units across tiers, update this doc's
+  tables in the same change, not after the fact.
+
+This is currently a **manual** check (see #25); a machine-checkable version
+belongs in rarelang-server's `validate-content.mjs` once units actually
+carry `cefrLevel`, since there's nothing to validate against with only one
+unit authored so far.
+
 ---
 
 ## Beginner tier (A1–A2)
