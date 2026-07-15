@@ -18,7 +18,8 @@
   "audio": {
     "baseUrl": "/audio/sranantongo/",
     "format": "mp3",
-    "voice": "single-speaker-tts"
+    "voice": "single-speaker-tts",
+    "ttsModel": "facebook/mms-tts-srn"
   },
   "branding": {
     "appName": "Tak Sranan Man",

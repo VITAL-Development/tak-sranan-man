@@ -19,6 +19,14 @@ a dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+### Added
+
+- `settings/sranantongo/language-settings.json`: `audio.ttsModel` field
+  (`"facebook/mms-tts-srn"`), declaring the MMS-TTS model id this repo's own
+  `scripts/generate-audio.mjs` uses when calling rarelang-server's
+  `POST /audio/generate` (rarelang-server#79/#80). Additive, no shape change
+  to existing fields.
+
 ## [0.3.0] - 2026-07-14
 
 ### Added
