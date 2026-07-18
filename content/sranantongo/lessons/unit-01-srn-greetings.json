@@ -6,13 +6,15 @@
         "id": "srn-ex-1-1",
         "word": "Odi! Fa waka?",
         "translations": { "nl": "Hallo! Hoe gaat het?" },
-        "vocabRefs": ["srn-greet-odi", "srn-greet-fa-waka"]
+        "vocabRefs": ["srn-greet-odi", "srn-greet-fa-waka"],
+        "tokenVocabRefs": ["srn-greet-odi", "srn-greet-fa-waka", "srn-greet-fa-waka"]
       },
       {
         "id": "srn-ex-1-2",
         "word": "Mi bun, gran tangi.",
         "translations": { "nl": "Het gaat goed, hartelijk dank." },
-        "vocabRefs": ["srn-greet-mi-bun", "srn-greet-grantangi"]
+        "vocabRefs": ["srn-greet-mi-bun", "srn-greet-grantangi"],
+        "tokenVocabRefs": ["srn-greet-mi-bun", "srn-greet-mi-bun", "srn-greet-grantangi", "srn-greet-grantangi"]
       }
     ],
     "grammarNotes": [],
@@ -34,7 +36,8 @@
         "sentenceTemplate": "Mi ___.",
         "correctAnswer": "bun",
         "options": ["bun", "tangi", "waka", "odi"],
-        "translations": { "nl": "Het gaat goed." }
+        "translations": { "nl": "Het gaat goed." },
+        "tokenVocabRefs": ["srn-pron-mi", null]
       }
     }
   },
@@ -45,7 +48,8 @@
         "id": "srn-ex-2-1",
         "word": "Wan, tu, dri, fo, feifi.",
         "translations": { "nl": "Eén, twee, drie, vier, vijf." },
-        "vocabRefs": ["srn-num-wan", "srn-num-tu", "srn-num-dri", "srn-num-fo", "srn-num-feifi"]
+        "vocabRefs": ["srn-num-wan", "srn-num-tu", "srn-num-dri", "srn-num-fo", "srn-num-feifi"],
+        "tokenVocabRefs": ["srn-num-wan", "srn-num-tu", "srn-num-dri", "srn-num-fo", "srn-num-feifi"]
       }
     ],
     "grammarNotes": [],
@@ -61,7 +65,8 @@
         "sentenceTemplate": "Wan, tu, ___, fo, feifi.",
         "correctAnswer": "dri",
         "options": ["dri", "siksi", "tin", "aiti"],
-        "translations": { "nl": "Eén, twee, drie, vier, vijf." }
+        "translations": { "nl": "Eén, twee, drie, vier, vijf." },
+        "tokenVocabRefs": ["srn-num-wan", "srn-num-tu", null, "srn-num-fo", "srn-num-feifi"]
       }
     }
   }
