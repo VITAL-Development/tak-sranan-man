@@ -6,7 +6,8 @@
         "id": "srn-ex-4-1",
         "word": "Mi e go, yu e go, unu e go.",
         "translations": { "nl": "Ik ga, jij gaat, jullie gaan." },
-        "vocabRefs": ["srn-pron-mi", "srn-pron-yu", "srn-pron-unu"]
+        "vocabRefs": ["srn-pron-mi", "srn-pron-yu", "srn-pron-unu"],
+        "tokenVocabRefs": ["srn-pron-mi", null, null, "srn-pron-yu", null, null, "srn-pron-unu", null, null]
       }
     ],
     "grammarNotes": [
@@ -50,7 +51,8 @@
         "id": "srn-ex-4-2",
         "word": "A lampu disi na mi lampu.",
         "translations": { "nl": "Deze lamp is mijn lamp." },
-        "vocabRefs": ["srn-pron-disi", "srn-pron-mi"]
+        "vocabRefs": ["srn-pron-disi", "srn-pron-mi"],
+        "tokenVocabRefs": ["srn-art-a", "srn-noun-lampu", "srn-pron-disi", "srn-gram-na", "srn-pron-mi", "srn-noun-lampu"]
       }
     ],
     "grammarNotes": [
@@ -86,7 +88,8 @@
         "sentenceTemplate": "A sani ___ na fu mi.",
         "correctAnswer": "dati",
         "options": ["dati", "disi", "den", "wan"],
-        "translations": { "nl": "Dat ding is van mij." }
+        "translations": { "nl": "Dat ding is van mij." },
+        "tokenVocabRefs": ["srn-art-a", "srn-noun-sani", "srn-pron-dati", "srn-gram-na", "srn-prep-fu", "srn-pron-mi"]
       }
     }
   },
@@ -97,13 +100,15 @@
         "id": "srn-ex-4-3",
         "word": "San yu wani?",
         "translations": { "nl": "Wat wil jij?" },
-        "vocabRefs": ["srn-q-san", "srn-pron-yu"]
+        "vocabRefs": ["srn-q-san", "srn-pron-yu"],
+        "tokenVocabRefs": ["srn-q-san", "srn-pron-yu", "srn-verb-wani"]
       },
       {
         "id": "srn-ex-4-4",
         "word": "Pe yu e libi?",
         "translations": { "nl": "Waar woon jij?" },
-        "vocabRefs": ["srn-q-pe", "srn-pron-yu"]
+        "vocabRefs": ["srn-q-pe", "srn-pron-yu"],
+        "tokenVocabRefs": ["srn-q-pe", "srn-pron-yu", "srn-prep-e-locative", "srn-verb-libi"]
       }
     ],
     "grammarNotes": [
@@ -136,7 +141,8 @@
         "sentenceTemplate": "___ yu wani?",
         "correctAnswer": "San",
         "options": ["San", "Suma", "Pe", "Oten"],
-        "translations": { "nl": "Wat wil jij?" }
+        "translations": { "nl": "Wat wil jij?" },
+        "tokenVocabRefs": [null, "srn-pron-yu", "srn-verb-wani"]
       }
     }
   },

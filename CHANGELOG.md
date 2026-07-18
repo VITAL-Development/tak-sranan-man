@@ -26,6 +26,17 @@ a dated `## [X.Y.Z]` heading.
   `scripts/generate-audio.mjs` uses when calling rarelang-server's
   `POST /audio/generate` (rarelang-server#79/#80). Additive, no shape change
   to existing fields.
+- Optional `tokenVocabRefs` per-word translation refs on example sentences
+  and fill-in-the-blank sentence templates in `unit-01-srn-greetings.json`,
+  `unit-02-srn-sounds.json`, and `unit-04-srn-pronouns.json`, per
+  rarelang-server's `api-contract.md` (v1.2.0, issue #67). Additive and
+  authored incrementally: entries with no matching standalone vocab item
+  are left `null` rather than guessed. (#29)
+- New `vocab/nouns.json`, `vocab/verbs.json`, `vocab/grammar.json` files
+  (lampu, sani, tan, wani, libi, srn-art-a, srn-gram-na, srn-prep-fu,
+  srn-prep-e-locative — all tagged `needs-verification`), added to give
+  the tokenVocabRefs above a full, non-null tooltip mapping per PR #36's
+  review.
 
 ### Removed
 

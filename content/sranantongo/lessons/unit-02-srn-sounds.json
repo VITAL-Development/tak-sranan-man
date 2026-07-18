@@ -75,7 +75,8 @@
         "sentenceTemplate": "___ yu tan?",
         "correctAnswer": "Fa",
         "options": ["Fa", "Ja", "Va", "Cha"],
-        "translations": { "nl": "Hoe gaat het met jou?" }
+        "translations": { "nl": "Hoe gaat het met jou?" },
+        "tokenVocabRefs": [null, "srn-pron-yu", "srn-verb-tan"]
       }
     }
   },
@@ -104,7 +105,8 @@
         "sentenceTemplate": "Mi ___.",
         "correctAnswer": "bun",
         "options": ["bun", "tangi", "waka", "odi"],
-        "translations": { "nl": "Het gaat goed." }
+        "translations": { "nl": "Het gaat goed." },
+        "tokenVocabRefs": ["srn-pron-mi", null]
       }
     }
   }

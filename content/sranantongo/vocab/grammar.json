@@ -1,0 +1,38 @@
+[
+  {
+    "id": "srn-art-a",
+    "word": "a",
+    "translations": {
+      "nl": "de / het"
+    },
+    "tags": ["article", "needs-verification"],
+    "notes": "Singular definite article 'the', same surface form as the third-person-singular subject pronoun 'a' (see srn-pron-a-en) but a distinct grammatical function — the same doubling-up pattern already noted on 'den' (plural pronoun/plural article, srn-pron-den). Added to give a per-word translation tooltip (tokenVocabRefs) to unit-04-srn-pronouns.json's example sentence 'A lampu disi na mi lampu.' and fill-blank template 'A sani ___ na fu mi.', per PR #36's review. Not yet cross-checked against a second independent source — tagged needs-verification rather than web-verified until then."
+  },
+  {
+    "id": "srn-gram-na",
+    "word": "na",
+    "translations": {
+      "nl": "is"
+    },
+    "tags": ["grammar", "needs-verification"],
+    "notes": "Copula ('to be'), in this sense distinct from 'na' as a locative preposition ('in/at/to') attested elsewhere in Sranan Tongo. Added to give a per-word translation tooltip (tokenVocabRefs) to unit-04-srn-pronouns.json's example sentence 'A lampu disi na mi lampu.' and fill-blank template 'A sani ___ na fu mi.', per PR #36's review. Not yet cross-checked against a second independent source — tagged needs-verification rather than web-verified until then."
+  },
+  {
+    "id": "srn-prep-fu",
+    "word": "fu",
+    "translations": {
+      "nl": "van"
+    },
+    "tags": ["preposition", "needs-verification"],
+    "notes": "Added to give a per-word translation tooltip (tokenVocabRefs) to unit-04-srn-pronouns.json's fill-blank template 'A sani ___ na fu mi.' ('Dat ding is van mij.'), per PR #36's review. Not yet cross-checked against a second independent source — tagged needs-verification rather than web-verified until then."
+  },
+  {
+    "id": "srn-prep-e-locative",
+    "word": "e",
+    "translations": {
+      "nl": "in (voorzetsel, locatief)"
+    },
+    "tags": ["preposition", "needs-verification"],
+    "notes": "Added per PR #36's review to give a per-word translation tooltip (tokenVocabRefs) to unit-04-srn-pronouns.json's example sentence 'Pe yu e libi?' ('Waar woon jij?'). Flagging for the reviewer: elsewhere in this repo's own content (srn-ex-4-1, 'Mi e go, yu e go, unu e go.') 'e' is left unmapped as the progressive/aspect marker, not a locative preposition — the same word may be doing the aspect-marker job here rather than 'in', worth double-checking before this is treated as web-verified."
+  }
+]
