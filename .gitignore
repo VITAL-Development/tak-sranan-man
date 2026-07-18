@@ -2,5 +2,7 @@ node_modules
 *.local
 .DS_Store
 .claude/
-# scripts/generate-audio.mjs output — generated locally, not committed
+# scripts/generate-audio.mjs raw scratch output (.wav) — generated locally,
+# never committed; the tracked/shipped audio lives under
+# content/sranantongo/audio/ (.mp3, committed) instead.
 generated-audio/

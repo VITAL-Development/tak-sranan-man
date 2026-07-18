@@ -6,7 +6,8 @@
       "nl": "lamp"
     },
     "tags": ["noun", "needs-verification"],
-    "notes": "Added to give a per-word translation tooltip (tokenVocabRefs) to unit-04-srn-pronouns.json's example sentence 'A lampu disi na mi lampu.' ('Deze lamp is mijn lamp.'), per PR #36's review. Not yet cross-checked against a second independent source — tagged needs-verification rather than web-verified until then."
+    "notes": "Added to give a per-word translation tooltip (tokenVocabRefs) to unit-04-srn-pronouns.json's example sentence 'A lampu disi na mi lampu.' ('Deze lamp is mijn lamp.'), per PR #36's review. Not yet cross-checked against a second independent source — tagged needs-verification rather than web-verified until then.",
+    "audioUrl": "/audio/sranantongo/srn-noun-lampu.mp3"
   },
   {
     "id": "srn-noun-sani",
@@ -15,6 +16,7 @@
       "nl": "ding"
     },
     "tags": ["noun", "needs-verification"],
-    "notes": "Added to give a per-word translation tooltip (tokenVocabRefs) to unit-04-srn-pronouns.json's fill-blank template 'A sani ___ na fu mi.' ('Dat ding is van mij.'), per PR #36's review. Not yet cross-checked against a second independent source — tagged needs-verification rather than web-verified until then."
+    "notes": "Added to give a per-word translation tooltip (tokenVocabRefs) to unit-04-srn-pronouns.json's fill-blank template 'A sani ___ na fu mi.' ('Dat ding is van mij.'), per PR #36's review. Not yet cross-checked against a second independent source — tagged needs-verification rather than web-verified until then.",
+    "audioUrl": "/audio/sranantongo/srn-noun-sani.mp3"
   }
 ]

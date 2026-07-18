@@ -19,6 +19,22 @@ a dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+### Added
+
+- `content/sranantongo/audio/*.mp3` — pronunciation audio for all 56 vocab
+  entries across `content/sranantongo/vocab/*.json`, batch-generated via
+  `scripts/generate-audio.mjs` against a local rarelang-server +
+  `facebook/mms-tts-srn` MMS-TTS stack (rarelang-server#79/#80,
+  backend-gateway#34) and converted from the script's raw `.wav` output to
+  `.mp3` (`libmp3lame -q:a 4`) to match `settings/sranantongo/
+  language-settings.json`'s `audio.format`. Each vocab entry now carries an
+  `audioUrl` field (`/audio/sranantongo/<id>.mp3`, matching `audio.baseUrl`)
+  pointing at its generated clip — additive, optional field, no shape
+  change to existing fields. Sanity-checked automatically (ffprobe duration
+  + `ffmpeg volumedetect` non-silence) for all 56 files, not by human
+  listening — see PR description; a human spot-listen is still recommended
+  before merge. (#44)
+
 ## [0.4.1] - 2026-07-18
 
 ### Fixed
