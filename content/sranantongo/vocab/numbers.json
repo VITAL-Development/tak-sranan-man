@@ -4,174 +4,199 @@
     "word": "wan",
     "translations": { "nl": "een" },
     "tags": ["number", "web-verified"],
-    "notes": "Cardinal number 'one'. Confirmed identically across Wikivoyage's and Wikitravel's Sranan phrasebooks, Wiktionary/kaikki.org's Sranan Tongo dictionary, Glosbe (en/srn 'one'), and languagesandnumbers.com. Wiktionary notes 'wan' also doubles as the indefinite article 'a/an' before a singular noun — same word, different grammatical function."
+    "notes": "Cardinal number 'one'. Confirmed identically across Wikivoyage's and Wikitravel's Sranan phrasebooks, Wiktionary/kaikki.org's Sranan Tongo dictionary, Glosbe (en/srn 'one'), and languagesandnumbers.com. Wiktionary notes 'wan' also doubles as the indefinite article 'a/an' before a singular noun — same word, different grammatical function.",
+    "audioUrl": "/audio/sranantongo/srn-num-wan.mp3"
   },
   {
     "id": "srn-num-tu",
     "word": "tu",
     "translations": { "nl": "twee" },
     "tags": ["number", "web-verified"],
-    "notes": "Cardinal number 'two', from English 'two'. Confirmed identically in Wikivoyage's and Wikitravel's Sranan phrasebooks, Wiktionary/kaikki.org, and languagesandnumbers.com. Note: Wiktionary lists a separate, unrelated homograph 'tu' meaning 'too/also' (from English 'too') — distinct etymology, same spelling."
+    "notes": "Cardinal number 'two', from English 'two'. Confirmed identically in Wikivoyage's and Wikitravel's Sranan phrasebooks, Wiktionary/kaikki.org, and languagesandnumbers.com. Note: Wiktionary lists a separate, unrelated homograph 'tu' meaning 'too/also' (from English 'too') — distinct etymology, same spelling.",
+    "audioUrl": "/audio/sranantongo/srn-num-tu.mp3"
   },
   {
     "id": "srn-num-dri",
     "word": "dri",
     "translations": { "nl": "drie" },
     "tags": ["number", "web-verified"],
-    "notes": "Cardinal number 'three'. Confirmed identically in Wikivoyage's and Wikitravel's Sranan phrasebooks, Wiktionary/kaikki.org (etymology: Dutch 'drie' or English 'three'), and languagesandnumbers.com."
+    "notes": "Cardinal number 'three'. Confirmed identically in Wikivoyage's and Wikitravel's Sranan phrasebooks, Wiktionary/kaikki.org (etymology: Dutch 'drie' or English 'three'), and languagesandnumbers.com.",
+    "audioUrl": "/audio/sranantongo/srn-num-dri.mp3"
   },
   {
     "id": "srn-num-fo",
     "word": "fo",
     "translations": { "nl": "vier" },
     "tags": ["number", "web-verified"],
-    "notes": "Cardinal number 'four', from English 'four'. Confirmed identically in Wikivoyage's and Wikitravel's Sranan phrasebooks, Wiktionary/kaikki.org, and languagesandnumbers.com."
+    "notes": "Cardinal number 'four', from English 'four'. Confirmed identically in Wikivoyage's and Wikitravel's Sranan phrasebooks, Wiktionary/kaikki.org, and languagesandnumbers.com.",
+    "audioUrl": "/audio/sranantongo/srn-num-fo.mp3"
   },
   {
     "id": "srn-num-feifi",
     "word": "feifi",
     "translations": { "nl": "vijf" },
     "tags": ["number", "web-verified"],
-    "notes": "Cardinal number 'five', from Dutch 'vijf'/English 'five'. Confirmed as 'feifi' in Wikivoyage's phrasebook, Wiktionary/kaikki.org, and languagesandnumbers.com. Wikitravel's phrasebook gives the alternate spelling 'feyfi' (Wiktionary lists this as a valid alt form, not proscribed) — using the more common 'feifi' spelling here."
+    "notes": "Cardinal number 'five', from Dutch 'vijf'/English 'five'. Confirmed as 'feifi' in Wikivoyage's phrasebook, Wiktionary/kaikki.org, and languagesandnumbers.com. Wikitravel's phrasebook gives the alternate spelling 'feyfi' (Wiktionary lists this as a valid alt form, not proscribed) — using the more common 'feifi' spelling here.",
+    "audioUrl": "/audio/sranantongo/srn-num-feifi.mp3"
   },
   {
     "id": "srn-num-siksi",
     "word": "siksi",
     "translations": { "nl": "zes" },
     "tags": ["number", "web-verified"],
-    "notes": "Cardinal number 'six', from English 'six'. Confirmed identically (no spelling variants found) in Wikivoyage's and Wikitravel's Sranan phrasebooks, Wiktionary/kaikki.org, and languagesandnumbers.com."
+    "notes": "Cardinal number 'six', from English 'six'. Confirmed identically (no spelling variants found) in Wikivoyage's and Wikitravel's Sranan phrasebooks, Wiktionary/kaikki.org, and languagesandnumbers.com.",
+    "audioUrl": "/audio/sranantongo/srn-num-siksi.mp3"
   },
   {
     "id": "srn-num-seibi",
     "word": "seibi",
     "translations": { "nl": "zeven" },
     "tags": ["number", "web-verified"],
-    "notes": "Cardinal number 'seven', from English 'seven'. Confirmed as 'seibi' in Wikivoyage's phrasebook, Wiktionary/kaikki.org, and languagesandnumbers.com. Wikitravel's phrasebook gives the alternate spelling 'seybi' (Wiktionary lists this as a valid alt form) — using the more common 'seibi' spelling here."
+    "notes": "Cardinal number 'seven', from English 'seven'. Confirmed as 'seibi' in Wikivoyage's phrasebook, Wiktionary/kaikki.org, and languagesandnumbers.com. Wikitravel's phrasebook gives the alternate spelling 'seybi' (Wiktionary lists this as a valid alt form) — using the more common 'seibi' spelling here.",
+    "audioUrl": "/audio/sranantongo/srn-num-seibi.mp3"
   },
   {
     "id": "srn-num-aiti",
     "word": "aiti",
     "translations": { "nl": "acht" },
     "tags": ["number", "web-verified"],
-    "notes": "Cardinal number 'eight', from English 'eight'. Confirmed as 'aiti' in Wikivoyage's phrasebook, Wiktionary/kaikki.org, and languagesandnumbers.com. Wikitravel's phrasebook gives 'ayti', which Wiktionary explicitly flags as a proscribed (discouraged) alternate spelling — deliberately using the standard 'aiti' form here rather than Wikitravel's."
+    "notes": "Cardinal number 'eight', from English 'eight'. Confirmed as 'aiti' in Wikivoyage's phrasebook, Wiktionary/kaikki.org, and languagesandnumbers.com. Wikitravel's phrasebook gives 'ayti', which Wiktionary explicitly flags as a proscribed (discouraged) alternate spelling — deliberately using the standard 'aiti' form here rather than Wikitravel's.",
+    "audioUrl": "/audio/sranantongo/srn-num-aiti.mp3"
   },
   {
     "id": "srn-num-neigi",
     "word": "neigi",
     "translations": { "nl": "negen" },
     "tags": ["number", "web-verified"],
-    "notes": "Cardinal number 'nine', borrowed from Dutch 'negen'. Confirmed as 'neigi' in Wikivoyage's phrasebook, Wiktionary/kaikki.org, and languagesandnumbers.com. Wikitravel's phrasebook gives the alternate spelling 'neygi' (Wiktionary lists this as a valid alt form) — using the more common 'neigi' spelling here."
+    "notes": "Cardinal number 'nine', borrowed from Dutch 'negen'. Confirmed as 'neigi' in Wikivoyage's phrasebook, Wiktionary/kaikki.org, and languagesandnumbers.com. Wikitravel's phrasebook gives the alternate spelling 'neygi' (Wiktionary lists this as a valid alt form) — using the more common 'neigi' spelling here.",
+    "audioUrl": "/audio/sranantongo/srn-num-neigi.mp3"
   },
   {
     "id": "srn-num-tin",
     "word": "tin",
     "translations": { "nl": "tien" },
     "tags": ["number", "web-verified"],
-    "notes": "Cardinal number 'ten'. Confirmed identically (no spelling variants found) in Wikivoyage's and Wikitravel's Sranan phrasebooks, Wiktionary/kaikki.org, Glosbe (en/srn 'ten' → 'tin', described as 'the cardinal number occurring after nine and before eleven'), and languagesandnumbers.com."
+    "notes": "Cardinal number 'ten'. Confirmed identically (no spelling variants found) in Wikivoyage's and Wikitravel's Sranan phrasebooks, Wiktionary/kaikki.org, Glosbe (en/srn 'ten' → 'tin', described as 'the cardinal number occurring after nine and before eleven'), and languagesandnumbers.com.",
+    "audioUrl": "/audio/sranantongo/srn-num-tin.mp3"
   },
   {
     "id": "srn-num-erfu",
     "word": "erfu",
     "translations": { "nl": "elf" },
     "tags": ["number", "needs-verification"],
-    "notes": "Cardinal number 'eleven'. Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source."
+    "notes": "Cardinal number 'eleven'. Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source.",
+    "audioUrl": "/audio/sranantongo/srn-num-erfu.mp3"
   },
   {
     "id": "srn-num-twarfu",
     "word": "twarfu",
     "translations": { "nl": "twaalf" },
     "tags": ["number", "needs-verification"],
-    "notes": "Cardinal number 'twelve'. Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source."
+    "notes": "Cardinal number 'twelve'. Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source.",
+    "audioUrl": "/audio/sranantongo/srn-num-twarfu.mp3"
   },
   {
     "id": "srn-num-tinadri",
     "word": "tinadri",
     "translations": { "nl": "dertien" },
     "tags": ["number", "needs-verification"],
-    "notes": "Cardinal number 'thirteen', literally 'ten-three' (tin + dri). Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source."
+    "notes": "Cardinal number 'thirteen', literally 'ten-three' (tin + dri). Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source.",
+    "audioUrl": "/audio/sranantongo/srn-num-tinadri.mp3"
   },
   {
     "id": "srn-num-tinafo",
     "word": "tinafo",
     "translations": { "nl": "veertien" },
     "tags": ["number", "needs-verification"],
-    "notes": "Cardinal number 'fourteen', literally 'ten-four' (tin + fo). The site gives this as 'tinafo, etc.', implying the tin+digit pattern continues through nineteen, but only 13 and 14 are spelled out explicitly — 15–19 are deliberately not authored here rather than extrapolated. Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source."
+    "notes": "Cardinal number 'fourteen', literally 'ten-four' (tin + fo). The site gives this as 'tinafo, etc.', implying the tin+digit pattern continues through nineteen, but only 13 and 14 are spelled out explicitly — 15–19 are deliberately not authored here rather than extrapolated. Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source.",
+    "audioUrl": "/audio/sranantongo/srn-num-tinafo.mp3"
   },
   {
     "id": "srn-num-tutenti",
     "word": "tutenti",
     "translations": { "nl": "twintig" },
     "tags": ["number", "needs-verification"],
-    "notes": "Cardinal number 'twenty', literally 'two-tens' (tu + tenti). Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source."
+    "notes": "Cardinal number 'twenty', literally 'two-tens' (tu + tenti). Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source.",
+    "audioUrl": "/audio/sranantongo/srn-num-tutenti.mp3"
   },
   {
     "id": "srn-num-dritenti",
     "word": "dritenti",
     "translations": { "nl": "dertig" },
     "tags": ["number", "needs-verification"],
-    "notes": "Cardinal number 'thirty', literally 'three-tens' (dri + tenti). Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source."
+    "notes": "Cardinal number 'thirty', literally 'three-tens' (dri + tenti). Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source.",
+    "audioUrl": "/audio/sranantongo/srn-num-dritenti.mp3"
   },
   {
     "id": "srn-num-fotenti",
     "word": "fotenti",
     "translations": { "nl": "veertig" },
     "tags": ["number", "needs-verification"],
-    "notes": "Cardinal number 'forty', literally 'four-tens' (fo + tenti). Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source."
+    "notes": "Cardinal number 'forty', literally 'four-tens' (fo + tenti). Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source.",
+    "audioUrl": "/audio/sranantongo/srn-num-fotenti.mp3"
   },
   {
     "id": "srn-num-feifitenti",
     "word": "feifitenti",
     "translations": { "nl": "vijftig" },
     "tags": ["number", "needs-verification"],
-    "notes": "Cardinal number 'fifty', literally 'five-tens' (feifi + tenti). Spelled 'feyfitenti' on the source site; normalized to this repo's existing 'feifi' spelling (see srn-num-feifi) for consistency. Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source."
+    "notes": "Cardinal number 'fifty', literally 'five-tens' (feifi + tenti). Spelled 'feyfitenti' on the source site; normalized to this repo's existing 'feifi' spelling (see srn-num-feifi) for consistency. Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source.",
+    "audioUrl": "/audio/sranantongo/srn-num-feifitenti.mp3"
   },
   {
     "id": "srn-num-siksitenti",
     "word": "siksitenti",
     "translations": { "nl": "zestig" },
     "tags": ["number", "needs-verification"],
-    "notes": "Cardinal number 'sixty', literally 'six-tens' (siksi + tenti). Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source."
+    "notes": "Cardinal number 'sixty', literally 'six-tens' (siksi + tenti). Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source.",
+    "audioUrl": "/audio/sranantongo/srn-num-siksitenti.mp3"
   },
   {
     "id": "srn-num-seibitenti",
     "word": "seibitenti",
     "translations": { "nl": "zeventig" },
     "tags": ["number", "needs-verification"],
-    "notes": "Cardinal number 'seventy', literally 'seven-tens' (seibi + tenti). Spelled 'seybitenti' on the source site; normalized to this repo's existing 'seibi' spelling (see srn-num-seibi) for consistency. Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source."
+    "notes": "Cardinal number 'seventy', literally 'seven-tens' (seibi + tenti). Spelled 'seybitenti' on the source site; normalized to this repo's existing 'seibi' spelling (see srn-num-seibi) for consistency. Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source.",
+    "audioUrl": "/audio/sranantongo/srn-num-seibitenti.mp3"
   },
   {
     "id": "srn-num-aititenti",
     "word": "aititenti",
     "translations": { "nl": "tachtig" },
     "tags": ["number", "needs-verification"],
-    "notes": "Cardinal number 'eighty', literally 'eight-tens' (aiti + tenti). Spelled 'aytitenti' on the source site; normalized to this repo's existing 'aiti' spelling (see srn-num-aiti) for consistency. Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source."
+    "notes": "Cardinal number 'eighty', literally 'eight-tens' (aiti + tenti). Spelled 'aytitenti' on the source site; normalized to this repo's existing 'aiti' spelling (see srn-num-aiti) for consistency. Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source.",
+    "audioUrl": "/audio/sranantongo/srn-num-aititenti.mp3"
   },
   {
     "id": "srn-num-neigitenti",
     "word": "neigitenti",
     "translations": { "nl": "negentig" },
     "tags": ["number", "needs-verification"],
-    "notes": "Cardinal number 'ninety', literally 'nine-tens' (neigi + tenti). Spelled 'neygitenti' on the source site; normalized to this repo's existing 'neigi' spelling (see srn-num-neigi) for consistency. Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source."
+    "notes": "Cardinal number 'ninety', literally 'nine-tens' (neigi + tenti). Spelled 'neygitenti' on the source site; normalized to this repo's existing 'neigi' spelling (see srn-num-neigi) for consistency. Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source.",
+    "audioUrl": "/audio/sranantongo/srn-num-neigitenti.mp3"
   },
   {
     "id": "srn-num-wan-ondro",
     "word": "wan ondro",
     "translations": { "nl": "honderd" },
     "tags": ["number", "needs-verification"],
-    "notes": "Cardinal number 'one hundred', literally 'one hundred' (wan + ondro). The site also gives the alternate spelling 'wan hondro'. Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source."
+    "notes": "Cardinal number 'one hundred', literally 'one hundred' (wan + ondro). The site also gives the alternate spelling 'wan hondro'. Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source.",
+    "audioUrl": "/audio/sranantongo/srn-num-wan-ondro.mp3"
   },
   {
     "id": "srn-num-wan-dusun",
     "word": "wan dusun",
     "translations": { "nl": "duizend" },
     "tags": ["number", "needs-verification"],
-    "notes": "Cardinal number 'one thousand'. Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source."
+    "notes": "Cardinal number 'one thousand'. Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source.",
+    "audioUrl": "/audio/sranantongo/srn-num-wan-dusun.mp3"
   },
   {
     "id": "srn-num-wan-milyun",
     "word": "wan milyun",
     "translations": { "nl": "miljoen" },
     "tags": ["number", "needs-verification"],
-    "notes": "Cardinal number 'one million'. Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source."
+    "notes": "Cardinal number 'one million'. Source: Koen Kamphuijs's 'Teri ini Sranantongo' (http://koenkamphuijs.nl/sranantongo/sranater.html) — single-sourced, not yet cross-checked against a second independent source.",
+    "audioUrl": "/audio/sranantongo/srn-num-wan-milyun.mp3"
   }
 ]
