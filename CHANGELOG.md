@@ -19,6 +19,16 @@ a dated `## [X.Y.Z]` heading.
 
 ## [Unreleased]
 
+### Fixed
+
+- `content/sranantongo/units/unit-01-srn-greetings.json`,
+  `unit-02-srn-sounds.json`, `unit-04-srn-pronouns.json`: rewrote unit
+  descriptions (and unit-02's affected lesson descriptions) in plain,
+  short-sentence A2-level Dutch — dropped dev-facing meta commentary and
+  linguistics/grammar jargon used without definition, per
+  `source-language-authoring-contract.md` (#37). Same-shape value fix, no
+  schema change.
+
 ## [0.4.0] - 2026-07-18
 
 ### Added
