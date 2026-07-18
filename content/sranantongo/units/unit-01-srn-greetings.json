@@ -30,7 +30,7 @@
         ],
         "grammarRefs": [],
         "topics": ["greeting"],
-        "kinds": ["multiple-choice", "flashcard", "word-bank", "fill-blank", "matching"],
+        "kinds": ["multiple-choice", "word-bank", "fill-blank", "matching"],
         "count": 5,
         "distractorScope": "topic"
       },
@@ -41,18 +41,6 @@
           "kind": "multiple-choice",
           "contentRef": "srn-l1-e1",
           "promptVocabRef": "srn-greet-odi"
-        },
-        {
-          "id": "srn-l1-e2",
-          "kind": "flashcard",
-          "vocabRef": "srn-greet-tangi",
-          "direction": "target-to-native"
-        },
-        {
-          "id": "srn-l1-e3",
-          "kind": "flashcard",
-          "vocabRef": "srn-greet-grantangi",
-          "direction": "native-to-target"
         },
         {
           "id": "srn-l1-e4",
@@ -100,7 +88,7 @@
         ],
         "grammarRefs": [],
         "topics": ["number"],
-        "kinds": ["multiple-choice", "flashcard", "word-bank", "fill-blank", "matching"],
+        "kinds": ["multiple-choice", "word-bank", "fill-blank", "matching"],
         "count": 5,
         "distractorScope": "topic"
       },
@@ -111,12 +99,6 @@
           "kind": "multiple-choice",
           "contentRef": "srn-l2-e1",
           "promptVocabRef": "srn-num-feifi"
-        },
-        {
-          "id": "srn-l2-e2",
-          "kind": "flashcard",
-          "vocabRef": "srn-num-tin",
-          "direction": "target-to-native"
         },
         {
           "id": "srn-l2-e3",

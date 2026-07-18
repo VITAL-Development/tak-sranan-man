@@ -29,7 +29,7 @@
         ],
         "grammarRefs": [],
         "topics": ["pronoun"],
-        "kinds": ["multiple-choice", "flashcard", "matching", "fill-blank"],
+        "kinds": ["multiple-choice", "matching", "fill-blank"],
         "count": 5,
         "distractorScope": "topic"
       },
@@ -44,12 +44,6 @@
           "id": "srn-l4-e2",
           "kind": "multiple-choice",
           "contentRef": "srn-l4-e2"
-        },
-        {
-          "id": "srn-l4-e3",
-          "kind": "flashcard",
-          "vocabRef": "srn-pron-unu",
-          "direction": "target-to-native"
         },
         {
           "id": "srn-l4-e4",
@@ -80,7 +74,7 @@
         ],
         "grammarRefs": [],
         "topics": ["pronoun"],
-        "kinds": ["multiple-choice", "flashcard", "matching", "fill-blank"],
+        "kinds": ["multiple-choice", "matching", "fill-blank"],
         "count": 5,
         "distractorScope": "topic"
       },
@@ -133,7 +127,7 @@
         ],
         "grammarRefs": [],
         "topics": ["question-word"],
-        "kinds": ["multiple-choice", "flashcard", "matching", "fill-blank"],
+        "kinds": ["multiple-choice", "matching", "fill-blank"],
         "count": 6,
         "distractorScope": "topic"
       },
@@ -153,12 +147,6 @@
           "id": "srn-l4-e10",
           "kind": "fill-blank",
           "contentRef": "srn-l4-e10"
-        },
-        {
-          "id": "srn-l4-e11",
-          "kind": "flashcard",
-          "vocabRef": "srn-q-suma",
-          "direction": "native-to-target"
         }
       ],
       "xpReward": 10

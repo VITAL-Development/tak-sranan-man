@@ -27,6 +27,18 @@ a dated `## [X.Y.Z]` heading.
   `POST /audio/generate` (rarelang-server#79/#80). Additive, no shape change
   to existing fields.
 
+### Removed
+
+- `flashcard` exercises from `content/sranantongo/units/{unit-01-srn-greetings,
+  unit-02-srn-sounds,unit-04-srn-pronouns}.json`'s authored `exercises` arrays
+  and `generatedSpec.kinds` lists (7 exercises across 6 lessons) — `flashcard`
+  is Review-only per rarelang-server's api-contract.md 2.0.0 (issue #75) and
+  must not be authored in Path lesson content. This content had drifted out
+  of conformance with that contract change; `contracts.lock.json` is bumped
+  to match (BREAKING per this repo's own schema, though it only brings
+  already-authored content back into conformance with an upstream rule that
+  had already landed — no new rule introduced here).
+
 ## [0.3.0] - 2026-07-14
 
 ### Added
