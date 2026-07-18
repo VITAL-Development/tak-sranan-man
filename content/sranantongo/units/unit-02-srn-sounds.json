@@ -27,12 +27,6 @@
           "id": "srn-l1s-e3",
           "kind": "multiple-choice",
           "contentRef": "srn-l1s-e3"
-        },
-        {
-          "id": "srn-l1s-e4",
-          "kind": "flashcard",
-          "vocabRef": "srn-greet-tangi",
-          "direction": "target-to-native"
         }
       ],
       "xpReward": 10
@@ -87,12 +81,6 @@
           "id": "srn-l3s-e3",
           "kind": "fill-blank",
           "contentRef": "srn-l3s-e3"
-        },
-        {
-          "id": "srn-l3s-e4",
-          "kind": "flashcard",
-          "vocabRef": "srn-num-tin",
-          "direction": "native-to-target"
         }
       ],
       "xpReward": 15
