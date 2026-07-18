@@ -52,7 +52,7 @@
         "word": "A lampu disi na mi lampu.",
         "translations": { "nl": "Deze lamp is mijn lamp." },
         "vocabRefs": ["srn-pron-disi", "srn-pron-mi"],
-        "tokenVocabRefs": [null, null, "srn-pron-disi", null, "srn-pron-mi", null]
+        "tokenVocabRefs": ["srn-art-a", "srn-noun-lampu", "srn-pron-disi", "srn-gram-na", "srn-pron-mi", "srn-noun-lampu"]
       }
     ],
     "grammarNotes": [
@@ -89,7 +89,7 @@
         "correctAnswer": "dati",
         "options": ["dati", "disi", "den", "wan"],
         "translations": { "nl": "Dat ding is van mij." },
-        "tokenVocabRefs": [null, null, null, null, null, "srn-pron-mi"]
+        "tokenVocabRefs": ["srn-art-a", "srn-noun-sani", "srn-pron-dati", "srn-gram-na", "srn-prep-fu", "srn-pron-mi"]
       }
     }
   },
@@ -101,14 +101,14 @@
         "word": "San yu wani?",
         "translations": { "nl": "Wat wil jij?" },
         "vocabRefs": ["srn-q-san", "srn-pron-yu"],
-        "tokenVocabRefs": ["srn-q-san", "srn-pron-yu", null]
+        "tokenVocabRefs": ["srn-q-san", "srn-pron-yu", "srn-verb-wani"]
       },
       {
         "id": "srn-ex-4-4",
         "word": "Pe yu e libi?",
         "translations": { "nl": "Waar woon jij?" },
         "vocabRefs": ["srn-q-pe", "srn-pron-yu"],
-        "tokenVocabRefs": ["srn-q-pe", "srn-pron-yu", null, null]
+        "tokenVocabRefs": ["srn-q-pe", "srn-pron-yu", "srn-prep-e-locative", "srn-verb-libi"]
       }
     ],
     "grammarNotes": [
@@ -142,7 +142,7 @@
         "correctAnswer": "San",
         "options": ["San", "Suma", "Pe", "Oten"],
         "translations": { "nl": "Wat wil jij?" },
-        "tokenVocabRefs": [null, "srn-pron-yu", null]
+        "tokenVocabRefs": [null, "srn-pron-yu", "srn-verb-wani"]
       }
     }
   },

@@ -76,7 +76,7 @@
         "correctAnswer": "Fa",
         "options": ["Fa", "Ja", "Va", "Cha"],
         "translations": { "nl": "Hoe gaat het met jou?" },
-        "tokenVocabRefs": [null, "srn-pron-yu", null]
+        "tokenVocabRefs": [null, "srn-pron-yu", "srn-verb-tan"]
       }
     }
   },

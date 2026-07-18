@@ -1,0 +1,29 @@
+[
+  {
+    "id": "srn-verb-tan",
+    "word": "tan",
+    "translations": {
+      "nl": "blijven"
+    },
+    "tags": ["verb", "needs-verification"],
+    "notes": "Added to give a per-word translation tooltip (tokenVocabRefs) to unit-02-srn-sounds.json's fill-blank template '___ yu tan?' ('Fa yu tan?', 'Hoe gaat het met jou?' — literally 'how do you stay/be?'), per PR #36's review. Not yet cross-checked against a second independent source — tagged needs-verification rather than web-verified until then."
+  },
+  {
+    "id": "srn-verb-wani",
+    "word": "wani",
+    "translations": {
+      "nl": "willen"
+    },
+    "tags": ["verb", "needs-verification"],
+    "notes": "Added to give a per-word translation tooltip (tokenVocabRefs) to unit-04-srn-pronouns.json's example sentence 'San yu wani?' and fill-blank template '___ yu wani?' (both 'Wat wil jij?'), per PR #36's review. Not yet cross-checked against a second independent source — tagged needs-verification rather than web-verified until then."
+  },
+  {
+    "id": "srn-verb-libi",
+    "word": "libi",
+    "translations": {
+      "nl": "wonen"
+    },
+    "tags": ["verb", "needs-verification"],
+    "notes": "Added to give a per-word translation tooltip (tokenVocabRefs) to unit-04-srn-pronouns.json's example sentence 'Pe yu e libi?' ('Waar woon jij?'), per PR #36's review. Not yet cross-checked against a second independent source — tagged needs-verification rather than web-verified until then."
+  }
+]
