@@ -61,7 +61,7 @@ CI (`.github/workflows/validate-content.yml`) runs on every PR: a
 deterministic gate runs rarelang-server's `validate-content` CLI against
 `content/sranantongo` + `settings/sranantongo` (broken `*Ref`s or missing
 required fields fail the PR before merge), a contracts-discovery job flags
-upstream drift in rarelang-server's contract docs against
+upstream drift in rarelang's contract docs against
 `contracts.lock.json`, and — only on PRs touching `content/sranantongo` or
 `docs/lesson-plan.md` — an advisory, cost-bounded Claude pass reviews the
 two prose/judgment contracts (CEFR-tier correctness, A2 English-readability
