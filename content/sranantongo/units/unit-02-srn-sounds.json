@@ -1,7 +1,7 @@
 {
   "id": "unit-02-srn-sounds",
   "title": "Klanken & spelling",
-  "description": "De vijf klinkers, de tweeklanken en de belangrijkste medeklinker-regels van het Sranantongo — hoe je de vaste, accentloze spelling leest en uitspreekt.",
+  "description": "Je leert de vijf klinkers van het Sranantongo. Je leert ook de belangrijkste medeklinkers, dat zijn letters zoals b, k en t. Sommige klinkers krijgen een y-klank of een w-klank erbij. Je hoort dan twee klanken in één lettergreep. De spelling van het Sranantongo heeft geen accenten. Je leert deze spelling lezen en uitspreken.",
   "order": 2,
   "lessons": [
     {
@@ -36,7 +36,7 @@
       "unitId": "unit-02-srn-sounds",
       "order": 2,
       "title": "Medeklinkers & tweeklanken",
-      "description": "De y- en w-tweeklanken, de eind-n als ng-klank, en de letters die het Sranantongo niet gebruikt.",
+      "description": "Sommige klinkers krijgen een y-klank of een w-klank erbij. Je hoort dan twee klanken in één lettergreep. Je leert ook: de eind-n klinkt als ng. Je leert welke letters het Sranantongo niet gebruikt.",
       "newVocab": [],
       "exampleSentenceRefs": [],
       "exercises": [
@@ -63,7 +63,7 @@
       "unitId": "unit-02-srn-sounds",
       "order": 3,
       "title": "Terugblik: klanken & spelling",
-      "description": "Herhaling van de klinkers, tweeklanken en medeklinker-regels.",
+      "description": "Herhaling van de klinkers en de medeklinkers. Herhaling van de klanken met een y-klank of een w-klank erbij.",
       "newVocab": [],
       "exampleSentenceRefs": [],
       "exercises": [

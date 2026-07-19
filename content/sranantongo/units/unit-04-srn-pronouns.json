@@ -1,7 +1,7 @@
 {
   "id": "unit-04-srn-pronouns",
   "title": "Voornaamwoorden & vraagwoorden",
-  "description": "Het persoonlijke voornaamwoordsysteem (ook gebruikt als bezittelijk voornaamwoord), aanwijzende voornaamwoorden, en de belangrijkste vraagwoorden.",
+  "description": "Je leert de voornaamwoorden van het Sranantongo, zoals ik, jij en wij. Dezelfde woorden gebruik je ook om te zeggen van wie iets is. Je leert ook woorden voor 'deze' en 'die'. Je leert de belangrijkste vraagwoorden.",
   "order": 5,
   "lessons": [
     {
@@ -9,7 +9,7 @@
       "unitId": "unit-04-srn-pronouns",
       "order": 1,
       "title": "Persoonlijke voornaamwoorden",
-      "description": "Mi, yu, a/en, wi, unu, den — het gesloten stel persoonlijke voornaamwoorden.",
+      "description": "Mi, yu, a/en, wi, unu, den — dit zijn alle persoonlijke voornaamwoorden van het Sranantongo. Het zijn er maar zes. Je leert ze allemaal uit je hoofd.",
       "newVocab": [
         "srn-pron-mi",
         "srn-pron-yu",
@@ -58,7 +58,7 @@
       "unitId": "unit-04-srn-pronouns",
       "order": 2,
       "title": "Bezittelijk & aanwijzend",
-      "description": "Dezelfde voornaamwoorden als bezittelijk gebruikt, plus disi (deze/dit) en dati (die/dat).",
+      "description": "Dezelfde voornaamwoorden gebruik je ook bezittelijk. Dat betekent: je zegt ermee van wie iets is. Je leert ook disi (deze/dit) en dati (die/dat). Deze woorden zijn aanwijzend, want je wijst er iets mee aan.",
       "newVocab": [
         "srn-pron-disi",
         "srn-pron-dati"
