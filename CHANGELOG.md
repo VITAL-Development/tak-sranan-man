@@ -29,6 +29,18 @@ a dated `## [X.Y.Z]` heading.
   `source-language-authoring-contract.md` (#37). Same-shape value fix, no
   schema change.
 
+## [0.4.1] - 2026-07-18
+
+### Fixed
+
+- `content/sranantongo/lessons/unit-02-srn-sounds.json`: simplified
+  `srn-gr-vowels` and `srn-gr-consonants` grammar-note bodies to A2-level
+  Dutch — split `srn-gr-vowels` into short plain sentences and dropped an
+  arrow-notation aside; defined "tweeklank" inline on first use in
+  `srn-gr-consonants` and rephrased its passive constructions — per
+  `source-language-authoring-contract.md` §2/§2a. Same-shape value edit
+  only. (#38)
+
 ## [0.4.0] - 2026-07-18
 
 ### Added
@@ -133,7 +145,8 @@ a dated `## [X.Y.Z]` heading.
   to a tag (`GITSYNC_REF=vX.Y.Z`) instead of tracking `main`. Also this
   `CHANGELOG.md` and README/CLAUDE pointers.
 
-[Unreleased]: ../../compare/v0.4.0...HEAD
+[Unreleased]: ../../compare/v0.4.1...HEAD
+[0.4.1]: ../../compare/v0.4.0...v0.4.1
 [0.4.0]: ../../compare/v0.3.0...v0.4.0
 [0.3.0]: ../../compare/v0.2.0...v0.3.0
 [0.2.0]: ../../compare/v0.1.0...v0.2.0
