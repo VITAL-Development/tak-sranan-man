@@ -57,23 +57,35 @@ Sranan Tongo uses a plain, unaccented Latin alphabet — no macrons or
 underdots like Sarnami. Don't add diacritics that aren't independently
 attested.
 
-CI (`.github/workflows/validate-content.yml`) runs on every PR: a
-deterministic gate runs rarelang-server's `validate-content` CLI against
-`content/sranantongo` + `settings/sranantongo` (broken `*Ref`s or missing
-required fields fail the PR before merge), a contracts-discovery job flags
-upstream drift in rarelang's contract docs against
-`contracts.lock.json`, and — only on PRs touching `content/sranantongo` or
-`docs/lesson-plan.md` — an advisory, cost-bounded Claude pass reviews the
-two prose/judgment contracts (CEFR-tier correctness, A2 English-readability
-ceiling) non-blockingly. This is in addition to, not a replacement for,
-the two-independent-source verification above.
+CI (`.github/workflows/validate-content.yml`) runs on every PR and has three
+parts:
+
+1. **Deterministic gate** — the shared private backend engine is cloned
+   (read-only, token-authenticated) and its deterministic
+   content-validation CLI is run against `content/sranantongo` +
+   `settings/sranantongo`; broken `*Ref`s or missing required fields fail
+   the PR before merge.
+2. **Contracts-discovery job** — the shared private contracts repo is
+   separately cloned (also read-only, token-authenticated), a manifest
+   script there generates a hash of each current upstream contract doc, and
+   that's diffed against the checked-in `contracts.lock.json` lockfile;
+   drift fails this job so a contract change upstream can't silently go
+   unreviewed here.
+3. **Advisory LLM pass** — only on PRs touching `content/sranantongo` or
+   `docs/lesson-plan.md`, a cost-bounded Claude pass reads the changed files
+   plus the two relevant contract docs and reviews the two prose/judgment
+   contracts (CEFR-tier correctness, A2 English-readability ceiling)
+   non-blockingly, posting its findings as a PR comment.
+
+This is in addition to, not a replacement for, the two-independent-source
+verification above.
 
 A lesson may carry an optional, id-keyed `generatedSpec` (vocab/grammar
 refs, topics, exercise kinds, count, distractor scope) alongside its fixed
 `exercises` array — this is additive content consumed by the backend
-engine's seeded exercise-arrangement generator (rarelang-server#37) to
-serve a varied exercise mix per replay; it doesn't replace the fixed
-exercises and introduces no new content text (see
+engine's seeded exercise-arrangement generator to serve a varied exercise
+mix per replay; it doesn't replace the fixed exercises and introduces no
+new content text (see
 `content/sranantongo/units/unit-01-srn-greetings.json` for the pattern).
 
 ## Branding
@@ -84,3 +96,17 @@ colors (RGB-triplet strings, matching the frontend engine's
 ("Tak Sranan Man"), and icon paths. Colors intentionally match the
 platform's shared Suriname-flag palette (reused across the platform's
 Suriname-language content); only the icon glyph is distinct.
+
+## Shared platform context (abstracted — this repo is public)
+
+This repo is one piece of a small set of coupled repos, most of which are private. In abstract terms:
+- Traffic to backend services in this ecosystem goes through a private reverse-proxy gateway that routes
+  by origin and gates access with a shared-secret header; any caller holding secrets does so via a
+  server-side relay, never in client-side JS.
+- A private contracts repo defines the shared HTTP API / content-authoring contracts that a private
+  generic frontend engine and a private generic backend engine both implement against.
+- The private backend engine serves content by cloning pinned per-language content repos (this repo is
+  one of them) at a fixed version tag, and persists user session/progress state server-side.
+
+Do not name the private repos, image paths, hostnames, or issue numbers of that private infrastructure in
+this file — describe behavior in the abstract terms above instead.
