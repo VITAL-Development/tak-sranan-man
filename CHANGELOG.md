@@ -28,6 +28,11 @@ a dated `## [X.Y.Z]` heading.
   linguistics/grammar jargon used without definition, per
   `source-language-authoring-contract.md` (#37). Same-shape value fix, no
   schema change.
+- `content/sranantongo/lessons/unit-02-srn-sounds.json`: defined
+  "diakritisch teken" inline on its first use in the `srn-gr-vowels`
+  grammar note ("een extra teken boven of onder een letter"), per
+  `source-language-authoring-contract.md`'s no-jargon-without-definition
+  rule. Same-shape value fix, no schema change. (#47)
 
 ## [0.4.1] - 2026-07-18
 
