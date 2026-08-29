@@ -5,18 +5,23 @@
 Content and branding package for Sranan Tongo, consumed by a generic,
 language-agnostic learning platform's engines (a PWA frontend engine and an
 HTTP backend engine, both content-agnostic). No app code, no build, no
-`npm` tooling at all — no `package.json`, lockfile, or `scripts/`. Icon
-regeneration is a rare, manual design task done ad hoc outside this repo
-(see README's "Branding").
+`npm` tooling at all — no `package.json` or lockfile. The one exception is
+`scripts/generate-audio.mjs`, a dependency-free (Node >=18 built-in
+`fetch`) one-off batch script that calls the backend engine's
+`/audio/generate` endpoint to produce vocab pronunciation audio; it's run
+ad hoc, not part of any build/CI step. Icon regeneration is a rare, manual
+design task done ad hoc outside this repo (see README's "Branding").
 
 ## Layout
 
 ```
 content/sranantongo/{vocab,units,lessons}/*.json   # authored knowledge base
+content/sranantongo/audio/*.mp3                    # generated vocab pronunciation audio (committed)
 settings/sranantongo/language-settings.json        # romanization/alphabet/audio + branding
 public/{favicon.svg,icons/*.png}                   # PWA icon set
 docs/lesson-plan.md                                # curriculum plan: unit sequence, scope, sourcing
 docs/versioning.md                                 # SemVer git-tag release policy
+scripts/generate-audio.mjs                         # one-off batch TTS script (see "What this repo is")
 ```
 
 Don't rename/restructure `content/`/`settings/` without checking the
